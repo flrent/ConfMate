@@ -45,6 +45,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+strong {
+  font-weight: bold;
+}
 
 /* LAYOUT STYLES */
 body {
@@ -67,15 +70,30 @@ header {
   padding-top: 40px;
   padding-bottom: 120px;
   font-family: 'Gentium Basic', 'Helvetica Neue', Helvetica, Arial, serif; 
-  background: #F8F8F8 url(../images/conference-mobile-app.png) 0% 56% no-repeat;
+  background: #F8F8F8 url(../images/conference-mobile-app.png) 50% 56% no-repeat;
   border-bottom: solid 1px #275da1;
 }
-
+header iframe, header .author {
+  margin-top: 30px;
+  float: left;
+}
+header .author {
+  font-size:20px;
+  color:#000;
+  text-shadow: 1px 1px 10px #FFF;
+}
+header .author a {
+  color: #FFF;
+  text-shadow: 1px 1px 10px #000;
+}
+header .author a:hover {
+  text-decoration: underline;
+}
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
   color: rgb(111, 198, 255);
-  text-shadow: 1px 0px 4px #FFF;
+  text-shadow: 1px 0px 4px #2A2A2A;
   line-height: 1;
   margin-bottom: 0.2em;
   width: 540px;
@@ -157,6 +175,9 @@ aside a.button {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   margin-bottom: 20px;
   font-size: 21px;
+}
+aside a.button.example {
+  background: transparent url(../images/viewexample.png) 0 0 no-repeat;
 }
 
 code, pre {
@@ -412,7 +433,7 @@ footer a:hover {
     width: 93%;
   }
   header {
-    padding: 20px 0;
+
   }
   header .inner {
     position: relative;
