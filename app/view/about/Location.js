@@ -9,15 +9,7 @@ Ext.define('Conference.view.about.Location', {
         cls:'aboutLocation',
         items:[
             {
-                html:[
-                    '<h2>Getting around Portland</h2>',
-                    '<p>Travel Portland has graciously provided Conference attendees with free passes for the MAX light rail train, Portland Street Car and buses. These passes are good for the duration of the conference, April 29 - May 2, 2013. Passes will be available at Registration, upon request. You will need to carry the pass to board the train, car or bus.</p>',
-                    '<p>On the day of your arrival, take the MAX Red Line to the various destinations below. The cost for this one way trip is $2.50. Travel for the remainder of your time in Portland will be covered by the pass.</p>',
-                    "<ul><li>DoubleTree - Lloyd Center stop</li>",
-                    "<li>Crowne Plaza - Convention Center stop</li>",
-                    "<li>Red Lion Hotel - Convention Center stop</li>",
-                    "<li>Courtyard by Marriott - Convention Center stop</li></ul>"
-                ].join(""),   
+                html:globalConfig.infos.howToCome || "Define how to come steps in config.js"
             },
             {
                 html:[

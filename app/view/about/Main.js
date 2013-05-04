@@ -16,7 +16,7 @@ Ext.define('Conference.view.about.Main', {
                 items:[
                     {
                         cls:'image',
-                        html:'<img src="/resources/images/logo.png">',
+                        html:'<img src="'+globalConfig.logo+'">',
                         flex:0.8
                     },
                     {

@@ -6,7 +6,7 @@ Ext.define('Conference.view.schedule.List', {
     config: {
     	cls:'scheduleList',
         flex:1,
-    	title:'Schedules',
+    	title:'Schedule',
         store:'Schedules',
         selectedCls:"white",
         pressedCls:"white",

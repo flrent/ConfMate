@@ -84,6 +84,7 @@
             "index.html",
             "app.js",
             "app.json",
+            "config.js",
             "resources/fonts/rokkitt.woff",
             "resources/css/app.css",
             "resources/images/logo.png",
@@ -106,6 +107,7 @@
      * Extra resources to be copied along when build
      */
     "resources": [
+        "config.js",
         "schedule.json",
         "resources/images",
         "resources/fonts",
