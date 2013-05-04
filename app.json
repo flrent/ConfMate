@@ -86,7 +86,8 @@
             "app.json",
             "resources/css/app.css",
             "resources/images/logo.png",
-            "resources/images/map.png"
+            "resources/images/map.png",
+            "schedule.json"
         ],
         /**
          * List of items in the NETWORK section
@@ -105,6 +106,7 @@
      */
     "resources": [
         "resources/images",
+        "resources/fonts",
         "resources/icons",
         "resources/startup"
     ],

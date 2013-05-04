@@ -7,6 +7,12 @@ $tabs-dark: #ab1004;
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rokkitt Bold'), local('Rokkitt-Bold'), url(/resources/fonts/rokkitt.woff) format('woff');
+}
 // Custom code goes here..
 
 // Examples of using the icon mixin:
@@ -59,4 +65,5 @@ $tabs-dark: #ab1004;
 		margin:10px;
 	}
 }
+
 @include sencha-button-ui('action', $base-color, 5%);
