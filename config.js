@@ -17,7 +17,7 @@ var globalConfig = {
             "<li>Courtyard by Marriott - Convention Center stop</li></ul>"
         ].join(""),   
 	},
-	logo:"/resources/images/logo.png",
+	logo:"resources/images/logo.png",
 	tabs: {
 	  speakers:false,
 	  talks:true,

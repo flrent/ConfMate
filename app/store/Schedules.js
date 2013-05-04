@@ -16,7 +16,7 @@ Ext.define('Conference.store.Schedules', {
 		},
 		proxy: {
             type: 'ajax',
-            url: '/schedule.json',
+            url: 'schedule.json',
 
             reader: {
                 type: 'json'
