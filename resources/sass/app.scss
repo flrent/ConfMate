@@ -1,0 +1,62 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+$base-color: #4cb1ac;
+$tabs-dark: #ab1004;
+
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+.white {
+	background: #FFF;
+}
+.talk {
+	.x-innerhtml {
+		padding:0!important;
+		padding-left: 10px!important;
+		padding-top: 2px!important;
+	}
+	.x-list-normal .x-list-header, .x-list-header {
+		background-image:none!important;
+		background: #CCC!important;
+		color: #FFF!important;
+		text-shadow: 1px 1px 0 #2A2A2A!important;
+	}
+	.speaker {
+		font-size: 0.8em;
+		text-shadow: 1px 1px 0 #FFF;
+		color:#666;
+	}
+}
+
+.about {
+	.image {
+		text-align: center;
+		img {
+			max-width:90%!important;
+			margin-top:10px;
+		}
+	}
+	.menu {
+		&:first-child {
+			border-top:1px solid #E8E8E8;
+		}
+		background:#F8F8F8;
+		border-bottom: 1px solid #E8E8E8;
+		padding:15px;
+
+		&.selected {
+			background: #E8E8E8;
+		}
+	}
+}
+.aboutHistory {
+	p {
+		margin:10px;
+	}
+}
+@include sencha-button-ui('action', $base-color, 5%);
