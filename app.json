@@ -85,11 +85,11 @@
             "app.js",
             "app.json",
             "config.js",
+            "schedule.js",
             "resources/fonts/rokkitt.woff",
             "resources/css/app.css",
             "resources/images/logo.png",
-            "resources/images/map.png",
-            "schedule.json"
+            "resources/images/map.png"
         ],
         /**
          * List of items in the NETWORK section

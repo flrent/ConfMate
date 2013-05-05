@@ -14,13 +14,6 @@ Ext.define('Conference.store.Schedules', {
 		   		return dateStart.toLocaleString();
 		   }
 		},
-		proxy: {
-            type: 'ajax',
-            url: 'schedule.json',
-
-            reader: {
-                type: 'json'
-            }
-        }
+		data:schedule
 	}
 });
