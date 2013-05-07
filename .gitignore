@@ -16,6 +16,6 @@ rerun.txt
 pickle-email-*.html
 packages
 build
-archives
+archive
 resources/sass/.sass-cache
 **/*/.DS_Store
