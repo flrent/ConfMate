@@ -13,6 +13,9 @@ Ext.define('Conference.view.Tabs', {
             },
             {
                 xtype:'aboutMain'
+            },
+            {
+                xtype:'twitterMain'
             }
         ]
     }

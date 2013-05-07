@@ -108,7 +108,7 @@
      */
     "resources": [
         "config.js",
-        "schedule.json",
+        "schedule.js",
         "resources/images",
         "resources/fonts",
         "resources/icons",

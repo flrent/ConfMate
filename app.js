@@ -25,18 +25,19 @@ Ext.application({
         autoMaximize: !Ext.browser.is.Standalone && Ext.os.is.iOS && Ext.browser.is.Safari
     },
     models:[
-        'Schedule'
+        'Schedule','Tweet'
     ],
 
     views: [
         'about.Main','about.History','about.Location',
         'favorites.Main','favorites.List',
         'schedule.Main','schedule.List','schedule.Schedule',
+        'twitter.Main','twitter.TwitterDataView',
         'Tabs'
     ],
 
     stores: [
-        'Schedules','Favorites','Schedule'
+        'Schedules','Favorites','Schedule','Tweets'
     ],
 
     controllers: [

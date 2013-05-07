@@ -1,5 +1,6 @@
 var globalConfig = {
 	name:"RailsConf 2013",
+	hashtag:"#railsconf",
 	infos: {
 		history:[
 	    	'<h2>History</h2>',
