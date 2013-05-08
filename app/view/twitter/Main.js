@@ -4,7 +4,7 @@ Ext.define('Conference.view.twitter.Main', {
 
     config: {
         title:'Twitter',
-        iconCls:'info',
+        iconCls:'chat',
         items:[
             {
                 title:globalConfig.hashtag || "Twitter",

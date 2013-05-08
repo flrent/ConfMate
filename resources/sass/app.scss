@@ -79,5 +79,6 @@ $tabs-dark: #ab1004;
 	img {float:left;margin-right:5px;border:1px solid #CCC;}
 
 	clear:both;
-}	
+}
+@include icon("chat");	
 @include sencha-button-ui('action', $base-color, 5%);

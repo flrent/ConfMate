@@ -5,7 +5,7 @@ Ext.define("Conference.view.twitter.TwitterDataView", {
 
     config: {
         itemTpl: '<div class="tweet"><img src="{profile_image_url}" /><span>{from_user}</span>{text}</div>',
-        height:300,
+        height:350,
         store: 'Tweets'
     },
     initialize: function() {

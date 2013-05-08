@@ -12,10 +12,10 @@ Ext.define('Conference.view.Tabs', {
                 xtype:'scheduleMain'
             },
             {
-                xtype:'aboutMain'
+                xtype:'twitterMain'
             },
             {
-                xtype:'twitterMain'
+                xtype:'aboutMain'
             }
         ]
     }
