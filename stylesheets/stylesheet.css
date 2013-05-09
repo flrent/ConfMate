@@ -73,6 +73,9 @@ header {
   background: #F8F8F8 url(../images/conference-mobile-app.png) 50% 56% no-repeat;
   border-bottom: solid 1px #275da1;
 }
+header a {
+  color:#FFF;
+}
 header iframe, header .author {
   margin-top: 30px;
   float: left;

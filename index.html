@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
@@ -27,45 +28,53 @@
   <body>
     <header>
       <div class="inner">
-        <h1>Let your attendees create their own schedule</h1>
-        <h2>You are organizing a conference ? Have a mobile app to help your attendees browse talks, speakers, location, and interact with your conference.</h2>
+
         <a href="https://github.com/flrent/conferences-mobile-app" class="button"><small>View project on</small>GitHub</a>
-        <iframe src="http://ghbtns.com/github-btn.html?user=flrent&repo=conferences-mobile-app&type=watch&count=false&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="30"></iframe>
-        <div class="author">Made by <a href="http://twitter.com/flrent">@flrent</a></div>
+        
+        <h1>Let your attendees create their own schedule</h1>
+        <h2>You are organizing a conference ? Have a mobile web app to help your attendees browse talks, speakers, location, and interact with your conference.</h2>
+        <br>
+        <div class="btn btn-large btn-danger">Features</div>
+        <div class="btn btn-info btn-large btn-primary"><a href="#pricing">Free & Premium plans</a></div>
+
+
+        <!--<div class="author">Made by <a href="http://twitter.com/flrent">@flrent</a></div>-->
         </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h2>Why do you need a mobile app for your attendees ?</h2>
-            <p>I attended last <a href="http://www.railsconf.com">RailsConf 2013</a> in Portland, OR. I had the need to create my own schedule, as there were several talks at the same moment, but the official mobile app wasn't able to do this and was not really usable. So I created one.</p>
-          <h3>Features</h4>
-            <ul>
-              <li>Browse talks <strong>offline</strong></li>
-              <li>Favorite talks so you can have your <strong>own schedule</strong></li>
-              <li>See <strong>speakers details</strong></li>
-              <li>Browse <strong>conference details</strong> like location, hours, organization team...</li>
-            </ul>
-          <h2>How to create your own mobile app ?</h2>
+          <h2>Why do you need a mobile web app for your attendees ?</h2>
+            <p>I attended last <a href="http://www.railsconf.com">RailsConf 2013</a> in Portland, OR. I had the need to create my own schedule, as there were several talks at the same moment, but the official mobile app wasn't able to do this and was not really usable. So I created one. Your attendees have the same need.</p>
+          <h2>Features</h4>
+              <p><i class="icon-plane"></i> Browse talks and full schedule <strong>offline</strong>
+              <br><i class="icon-signal"></i> See the <strong>#twitter</strong> feed of your conference
+              <br><i class="icon-star"></i> Let your users <strong>favorite talks</strong> and have a <strong>custom schedule</strong>
+              <br><i class="icon-user"></i> See <strong>speakers details</strong>
+              <br><i class="icon-map-marker"></i> Browse <strong>conference details</strong> like location, hours, organization team...</p>
+          <a name="pricing"></a>
+          <h2>Free Version for any non-profit conferences</h2>
+            <p>If you are a non-profit organization, you can use it <strong>for free</strong>. You have to follow the instructions and host it yourself.</p>
+          <h2>Premium Version for only 299$</h2>
+            <p>For any other type of conference, you will need to get the premium version.</p>
+            <p>The <strong>premium version</strong> is 299$. You will have a <strong>custom theme</strong> development, <strong>illimited 24h support</strong>, and your application will be <strong>hosted on a new domain</strong> if you want to, or you can host it on your server. Your application can also be published on the <strong>App Store</strong> and <strong>Google Play Android</strong> for an extra 49$.</p>
+          <!--<h2>Inscructions to have your own mobile web app</h2>
             <ol>
               <li><a href="http://flrent.github.io/conferences-mobile-app/railsconf-example-1.2.zip">Download the example app </a>.</li>
               <li>Update the file <a href="https://github.com/flrent/conferences-mobile-app/blob/master/schedule.json">schedule.json</a> with your schedule.</li>
               <li>Change your configuration in the <a href="https://github.com/flrent/conferences-mobile-app/blob/master/config.js">config.js</a> file</li>
               <li>All done !</li>
-            </ol>
-
-
+            </ol>-->
         </section>
 
         <aside id="sidebar">
-          <a href="http://flrent.github.io/conferences-mobile-app/railsconf-example-1.2/index.html" class="button example">
+          <a href="http://flrent.github.io/conferences-mobile-app/railsconf-example-1.2/index.html" class="btn btn-large btn-info example">
             <small>View RailsConf 2013</small>
             Example
           </a>
-
           <p class="repo-owner"><a href="https://github.com/flrent/conferences-mobile-app">This project</a> is maintained by <a href="https://github.com/flrent">flrent</a>.</p>
-
+          <iframe src="http://ghbtns.com/github-btn.html?user=flrent&repo=conferences-mobile-app&type=watch&count=false&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="30"></iframe>
           <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> originally using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
         </aside>
       </div>
@@ -98,5 +107,15 @@
     src="http://c.statcounter.com/8923479/0/d1fd8a06/1/"
     alt="free hit counters"></a></div></noscript>
     <!-- End of StatCounter Code for Default Guide -->
+    <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      setTimeout(function() {
+        $("h1").fadeOut();
+        $("h1").append(" offline");
+        $("h1").fadeIn();
+      },1000);
+    });
+    </script>
   </body>
 </html>
