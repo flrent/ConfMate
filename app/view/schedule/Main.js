@@ -4,7 +4,7 @@ Ext.define('Conference.view.schedule.Main', {
 
     config: {
     	title:'Schedule',
-        iconCls:'team',
+        iconCls:'table',
     	items:[
             {
                 xtype:'scheduleList'

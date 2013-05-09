@@ -81,4 +81,5 @@ $tabs-dark: #ab1004;
 	clear:both;
 }
 @include icon("chat");	
+@include icon("table");	
 @include sencha-button-ui('action', $base-color, 5%);

@@ -12,6 +12,10 @@ Ext.define('Conference.view.Tabs', {
                 xtype:'scheduleMain'
             },
             {
+                iconCls:'team',
+                title:'Speakers'
+            },
+            {
                 xtype:'twitterMain'
             },
             {
