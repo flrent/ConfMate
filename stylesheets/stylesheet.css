@@ -68,9 +68,9 @@ a:hover {
 
 header {
   padding-top: 40px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   font-family: 'Gentium Basic', 'Helvetica Neue', Helvetica, Arial, serif; 
-  background: #F8F8F8 url(../images/conference-mobile-app.png) 50% 56% no-repeat;
+  background: #F8F8F8 url(../images/breezi_placeit.png) 50% 56% no-repeat;
   border-bottom: solid 1px #275da1;
 }
 header a {
@@ -78,7 +78,6 @@ header a {
 }
 header iframe, header .author {
   margin-top: 30px;
-  float: left;
 }
 header .author {
   font-size:20px;
@@ -165,11 +164,8 @@ a.button small {
   display: block;
   font-size: 11px;
 }
-header a.button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+a.button.github {
+  background-image: url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
   width: 138px;
