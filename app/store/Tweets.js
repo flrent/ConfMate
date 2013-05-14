@@ -12,8 +12,8 @@ Ext.define('Conference.store.Tweets', {
                 rootProperty: 'results'
             },
             extraParams:{
-                q:"railsconf",
-                rpp:10,
+                q:globalConfig.hashtag,
+                rpp:50,
                 p:1
             }
         }

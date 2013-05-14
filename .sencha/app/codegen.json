@@ -23,10 +23,10 @@
       "parameters": {
         "appName": "Conference",
         "frameworkPath": "touch",
-        "appModels": "schedule",
-        "appControllers": "Schedules",
-        "appStores": "Schedule",
-        "appViews": "Tabs,myschedule.Main,schedule.List,schedule.Main,schedule.Schedule"
+        "appModels": "Schedule,Speaker,Tweet",
+        "appControllers": "About,Favoris,Schedule,Schedules,Speakers,test",
+        "appStores": "Favorites,Schedule,Schedules,Speakers,Tweets",
+        "appViews": "Tabs,about.History,about.Location,about.Main,favorites.List,favorites.Main,schedule.List,schedule.Main,schedule.Schedule,speakers.List,speakers.Main,speakers.Speaker,twitter.Main,twitter.TwitterDataview"
       }
     },
     "app.json": {

@@ -1,12 +1,14 @@
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
-$base-color: #4cb1ac;
-$tabs-dark: #ab1004;
+$base-color: #65699a;
+$tabs-dark: #2d2e3f;
 
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.@include sencha-msgbox;
 @font-face {
   font-family: 'Rokkitt';
   font-style: normal;
@@ -36,6 +38,12 @@ $tabs-dark: #ab1004;
 		font-size: 0.8em;
 		text-shadow: 1px 1px 0 #FFF;
 		color:#666;
+
+		span {
+			text-transform: uppercase;
+			font-size:12px;
+			color:rgb(187, 114, 114);
+		}
 	}
 }
 
@@ -66,14 +74,15 @@ $tabs-dark: #ab1004;
 	}
 }
 .tweet {
-	font-size:12px;
+	font-size:14px;
 	padding: 10px;
-	color:#777;
+	color: #333;
+	text-shadow: 1px 1px 1px #FFF;
 	span {
 		display:block;
 		font-size:13px;
 		font-weight: bold;
-		color:#2A2A2A;
+		color:#999;
 	}
 
 	img {float:left;margin-right:5px;border:1px solid #CCC;}

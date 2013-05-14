@@ -25,23 +25,35 @@ Ext.application({
         autoMaximize: !Ext.browser.is.Standalone && Ext.os.is.iOS && Ext.browser.is.Safari
     },
     models:[
-        'Schedule','Tweet'
+        'Schedule',
+        'Speaker',
+        'Tweet'
     ],
 
     views: [
         'about.Main','about.History','about.Location',
         'favorites.Main','favorites.List',
         'schedule.Main','schedule.List','schedule.Schedule',
+        'speakers.Main','speakers.List','speakers.Speaker',
         'twitter.Main','twitter.TwitterDataView',
         'Tabs'
     ],
 
     stores: [
-        'Schedules','Favorites','Schedule','Tweets'
+        'Favorites',
+        'Schedule',
+        'Schedules',
+        'Speaker',
+        'Speakers',
+        'Tweets'
     ],
 
     controllers: [
-        'Favoris','Schedules','Schedule','About'
+        'About',
+        'Favoris',
+        'Schedule',
+        'Schedules',
+        'Speakers'
     ],
 
     icon: {
@@ -65,9 +77,49 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
+        Ext.fly('downloading').destroy();
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('Conference.view.Tabs'));
+
+        if(Ext.os.is.iOS && !Ext.Viewport.isHomeScreen()) {
+            var alreadyShowHomeScreen = localStorage.getItem("alreadyShowHomeScreen");
+
+            if(!alreadyShowHomeScreen) {
+                var addToHome = Ext.create('Ext.Panel', {
+                    modal:true,
+                    hideOnMaskTap:true,
+                    centered:false,
+                    bottom:80,
+                    width:'100%',
+                    style:'padding:0;',
+                    cls:'installToHomeScreen',
+                    defaults:{style:'margin:5px;'},
+                    items:[
+                        {
+                            styleHtmlContent:true,
+                            style:"text-align:center;",
+                            html:"<h3>Add this webapp to your home screen to take full advantage of your phone screen and offline feature.</p>"
+                        },
+                        {
+                            style:"text-align:center;margin-top:-20px;",
+                            html:'<p><img src="resources/images/addtohomescreen.jpg"/></p>'
+                        },
+                        {
+                            xtype:'button',
+                            ui:'action',
+                            text:'Ok',
+                            handler: function() {
+                                addToHome.hide();
+                            }
+                        }
+                    ]
+                });
+                Ext.Viewport.add(addToHome);
+                addToHome.show({type:'slide',direction:'up',duration:1000});
+                localStorage.setItem("alreadyShowHomeScreen",true);
+            }
+        }
     },
 
     onUpdated: function() {

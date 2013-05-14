@@ -15,7 +15,7 @@ Ext.define('Conference.view.about.Location', {
                 html:[
                     "<h2>Directions</h2>",
                     "<p>Click on the map to open GPS</p>",
-                    "<p><a href='https://maps.google.ca/maps?q=oregon+convention+center&ie=UTF-8&ei=59l4UaWXF4bqiwLcqoGQAg&ved=0CAsQ_AUoAg'><img src='/resources/images/map.png' /></a></p>"
+                    "<p><a href='http://2013.jsday.it/location/'><img src='/resources/images/map.jpg' /></a></p>"
                 ].join("")
             }
         ]

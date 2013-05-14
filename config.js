@@ -1,21 +1,19 @@
 var globalConfig = {
-	name:"RailsConf 2013",
-	hashtag:"#railsconf",
+	name:"jsDay 2013",
+	uniqueId:"jsday",
+	hashtag:"#jsday",
 	infos: {
 		history:[
 	    	'<h2>History</h2>',
-	    	"<p>Since 2006, Conference has been the largest gathering of Rails developers in the world (and for most of that time, it's been the largest gathering of Rubyists, as well).</p>",
-	    	"<p>The 2013 edition is again presented by Ruby Central, and will run from April 29th - May 2nd in Portland, OR.Every year, Conference draws world-class developers and companies together to see the state of the art in Rails and web development, to learn about new products and tools, and for good, old-fashioned networking. </p>",
-	    	"<p>If you're looking to recruit or be recruited, stay on top of your game or learn the basics, building a team or showing what your team has built, Conference is the place to be.</p>"
+	    	'<h3>THE MOST USED LANGUAGE</h3>',
+	    	'<h3>THE MOST NEEDED CONFERENCE</h3>',
+	    	"<p>As Douglas Crockford stated on his blog, JavaScript is “The World's Most Misunderstood Programming Language”, not to mention that nowadays javascript is everywhere and it is the most used programming language on Earth. </p>",
+	    	"<p>This is the rationale behind the “the most needed conference” tag line. From case studies to project management, from new technologies to established ones, from development environments to best practices and mobile development, everything a javascript ninja should know will be covered during the jsDay 2013.</p>",
+	    	"<p>Among the topics you will find client side and server side javascript, best-practices, success cases related to quality, revision control, test-driven development, continuous integration, jQuery, MooTools, YUI, NodeJS, Backbone.js, Three.js , SproutCore, Raphaël, Sencha Touch, jQuery Mobile, HTML5 and many more.</p>"
 	    ].join(""),
 	    howToCome:[
             '<h2>Getting around Portland</h2>',
-            '<p>Travel Portland has graciously provided Conference attendees with free passes for the MAX light rail train, Portland Street Car and buses. These passes are good for the duration of the conference, April 29 - May 2, 2013. Passes will be available at Registration, upon request. You will need to carry the pass to board the train, car or bus.</p>',
-            '<p>On the day of your arrival, take the MAX Red Line to the various destinations below. The cost for this one way trip is $2.50. Travel for the remainder of your time in Portland will be covered by the pass.</p>',
-            "<ul><li>DoubleTree - Lloyd Center stop</li>",
-            "<li>Crowne Plaza - Convention Center stop</li>",
-            "<li>Red Lion Hotel - Convention Center stop</li>",
-            "<li>Courtyard by Marriott - Convention Center stop</li></ul>"
+            '<p>Hotel San Marco<br>Via Longhena, 42<br>37138 Verona — Italy</p>',
         ].join(""),   
 	},
 	logo:"resources/images/logo.png",

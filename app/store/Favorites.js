@@ -6,11 +6,9 @@ Ext.define('Conference.store.Favorites', {
 		model:'Conference.model.Schedule',
 		autoLoad:true,
 		grouper: {
-		   groupFn: function(record) {
-		    	var dateStart = new Date(record.get("starting_at")),
-		    		dateEnd = new Date(record.get("ending_at"));
-
-		   		return dateStart.toLocaleString();
+			groupFn: function(record) {
+		    	var dateStart = new Date(record.get("starting_at"));
+		   		return dateStart.getDate()+"th of "+Ext.Date.monthNames[dateStart.getMonth()+1]+ " - "+dateStart.getHours()+":"+(dateStart.getMinutes().length > 1 ? dateStart.getMinutes() : "00");
 		   }
 		},
 		proxy: {

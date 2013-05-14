@@ -8,6 +8,9 @@ Ext.define('Conference.view.twitter.Main', {
         items:[
             {
                 title:globalConfig.hashtag || "Twitter",
+                layout:{
+                    type:'fit'
+                },
                 items:[
                     {
                         xtype:"twitterDataview"

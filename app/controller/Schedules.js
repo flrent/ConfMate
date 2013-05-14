@@ -12,10 +12,14 @@ Ext.define('Conference.controller.Schedules', {
             }
         }
     },
+    launch: function() {
+        Ext.getStore("Schedules").sync();
+    },
     showSchedule: function(list, index, target, record, e, eOpts) {
-        Ext.getStore("Schedule").removeAll();
-        Ext.getStore("Schedule").add(record);
-        Ext.getStore("Schedule").load();
+        var store = Ext.getStore("Schedule");
+        store.removeAll();
+        store.add(record);
+        store.load();
         
         this.getNavigationView().push({
             xtype:'scheduleSchedule',

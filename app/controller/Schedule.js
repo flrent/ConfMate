@@ -18,7 +18,9 @@ Ext.define('Conference.controller.Schedule', {
     },
     addToFavorites: function() {
         var favoritesStore = Ext.getStore("Favorites");
-        favoritesStore.add(Ext.getStore("Schedule").getAt(0));
+        var record = Ext.getStore("Schedule").getAt(0);
+        record.setDirty();
+        favoritesStore.add(record);
         favoritesStore.sync();
         Ext.Msg.alert('Talk added', 'Your schedule is now updated.', Ext.emptyFn);
     }
