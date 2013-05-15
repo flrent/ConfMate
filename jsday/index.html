@@ -52,6 +52,10 @@
             }
         }
     </style>
+    <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("c8c37494f824f1607c1d6346bbc72b65");</script><!-- end Mixpanel -->
     <script type="text/javascript" src="schedule.js"></script>
     <script type="text/javascript" src="config.js"></script>
     <!-- The line below must be kept intact for Sencha Command to build your application -->
@@ -68,9 +72,10 @@ function(b){i(a,b)})}var d=b.getAsset(a.uri),e=a.path,f=a.update;!d||!f||null===
 k.UPDATEREADY)m();else if(k.status==k.CHECKING||k.status==k.DOWNLOADING)k.onupdateready=m,k.onnoupdate=k.onobsolete=function(){j()};!1!==navigator.onLine?e():z("online",e,!1)}var j=b.assets,g=j.length,f;r=b;z("message",G,!1);0==g?i():j.forEach(function(a){var b=w(a.key);null===b?F(a,function(b){a.remote||t(a.key,b);d(a,b)},function(){d(a,"")}):d(a,b)})}function K(b){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document.createElement("style");d.appendChild(document.createTextNode("@media screen and (orientation: portrait) {@-ms-viewport {width: 320px !important;}}@media screen and (orientation: landscape) {@-ms-viewport {width: 560px !important;}}"));
 document.getElementsByTagName("head")[0].appendChild(d)}d=/MSIE 10/.test(navigator.userAgent)?/complete|loaded/:/interactive|complete|loaded/;null!==m.readyState.match(d)?y(b):z("DOMContentLoaded",function(){navigator.standalone?setTimeout(function(){setTimeout(function(){y(b)},1)},1):setTimeout(function(){y(b)},1)},!1)}var E=function(){},v=[],m=l.document,u=m.head,z=l.addEventListener,J=l.removeEventListener,C=JSON.parse,B=m.createElement("a"),A=m.location,D=A.origin+A.pathname+A.search,p="app.json",
 I=!1,r,k,o;try{o=l.localStorage,k=l.applicationCache}catch(N){}if("undefined"===typeof n)var n=l.Ext={};n.blink=function(b){var d=w(b.id+"-"+D+p);x("viewport","width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");x("apple-mobile-web-app-capable","yes");x("apple-touch-fullscreen","yes");d?(b=new s(d),K(b)):q(p,function(c){b=new s(c);b.store();K(b)})}})(this);;Ext.blink({"id":"a45884c2-e1bc-4aac-b56a-bd262f5b493d"})</script>
+
 </head>
 <body>
-    <h1 id="downloading" style="text-align:center;color:#FFF;margin-top:20%;">Downloading...</h1>
+    <h1 id="downloading" style="text-align:center;color:#FFF;margin-top:20%;">Please wait...</h1>
     <div id="appLoadingIndicator">
         <div></div>
         <div></div>
