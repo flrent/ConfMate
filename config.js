@@ -12,7 +12,7 @@ var globalConfig = {
 	    	"<p>Among the topics you will find client side and server side javascript, best-practices, success cases related to quality, revision control, test-driven development, continuous integration, jQuery, MooTools, YUI, NodeJS, Backbone.js, Three.js , SproutCore, Raphaël, Sencha Touch, jQuery Mobile, HTML5 and many more.</p>"
 	    ].join(""),
 	    howToCome:[
-            '<h2>Getting around Portland</h2>',
+            '<h2>Getting to the conf</h2>',
             '<p>Hotel San Marco<br>Via Longhena, 42<br>37138 Verona — Italy</p>',
         ].join(""),   
 	},
