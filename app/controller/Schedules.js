@@ -24,6 +24,7 @@ Ext.define('Conference.controller.Schedules', {
         this.getNavigationView().push({
             xtype:'scheduleSchedule',
             title:record.get("title")
-        });   
+        }); 
+        mixpanel.track("Show talk "+record.get("title"));
     }
 });

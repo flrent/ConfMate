@@ -120,6 +120,8 @@ Ext.application({
                 localStorage.setItem("alreadyShowHomeScreen",true);
             }
         }
+
+        mixpanel.track("Launch app");
     },
 
     onUpdated: function() {
@@ -128,6 +130,7 @@ Ext.application({
             "This application has just successfully been updated to the latest version. Reload now?",
             function(buttonId) {
                 if (buttonId === 'yes') {
+                    mixpanel.track("Update app");
                     window.location.reload();
                 }
             }

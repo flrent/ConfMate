@@ -24,8 +24,10 @@ Ext.define('Conference.controller.About', {
     },
     showHistory: function() {
         this.getNavigationView().push({xtype:"aboutHistory"});
+        mixpanel.track("Show History");
     },
     showLocation: function() {
         this.getNavigationView().push({xtype:"aboutLocation"});
+        mixpanel.track("Show Location");
     }
 });

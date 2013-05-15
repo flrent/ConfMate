@@ -22,6 +22,8 @@ Ext.define('Conference.controller.Schedule', {
         record.setDirty();
         favoritesStore.add(record);
         favoritesStore.sync();
+
         Ext.Msg.alert('Talk added', 'Your schedule is now updated.', Ext.emptyFn);
+        mixpanel.track("Add to favorites "+record.get("title"));
     }
 });

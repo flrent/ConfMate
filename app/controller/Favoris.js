@@ -17,6 +17,7 @@ Ext.define('Conference.controller.Favoris', {
             if(buttonId=="yes") {
                 Ext.getStore("Favorites").remove(record);
                 Ext.getStore("Favorites").sync();
+                mixpanel.track("Remove from favorites "+record.get("title"));
             }
         });
     }

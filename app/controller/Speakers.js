@@ -44,5 +44,6 @@ Ext.define('Conference.controller.Speakers', {
             xtype:'speakersSpeaker',
             title:record.get("name")
         });   
+        mixpanel.track("Show speaker "+record.get("name"));
     }
 });
