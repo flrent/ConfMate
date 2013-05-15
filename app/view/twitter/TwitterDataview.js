@@ -1,12 +1,23 @@
 Ext.define("Conference.view.twitter.TwitterDataView", {
-    extend: 'Ext.dataview.DataView',
-    requires:['Ext.dataview.DataView','Ext.data.Store','Ext.data.proxy.JsonP'],
+    extend: 'Ext.dataview.List',
+    requires:['Ext.dataview.List','Ext.data.Store','Ext.data.proxy.JsonP'],
     xtype:'twitterDataview',
 
     config: {
-        itemTpl: '<div class="tweet"><img src="{profile_image_url}" /><span>{from_user}</span>{text}</div>',
-        
-        store: 'Tweets'
+        cls:"twitter",
+        itemCls:"tweet",
+        itemTpl: '<img src="{profile_image_url}" /><span>{from_user}</span>{text}',
+        itemHeight:'60px',
+        selectedCls:"none",
+        store: 'Tweets',
+        plugins: [
+            {
+                xclass: 'Ext.plugin.PullRefresh',
+                pullRefreshText: 'Refresh',
+                loadingText:'Loading...',
+                releaseRefreshText:'Pull to refresh'
+            }
+        ]
     },
     initialize: function() {
         this.callParent();

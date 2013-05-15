@@ -75,7 +75,6 @@ $tabs-dark: #2d2e3f;
 }
 .tweet {
 	font-size:14px;
-	padding: 10px;
 	color: #333;
 	text-shadow: 1px 1px 1px #FFF;
 	span {
@@ -85,7 +84,7 @@ $tabs-dark: #2d2e3f;
 		color:#999;
 	}
 
-	img {float:left;margin-right:5px;border:1px solid #CCC;}
+	img {float:left;margin-right:5px;border:1px solid #CCC;margin-bottom: 10px;}
 
 	clear:both;
 }
