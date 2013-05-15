@@ -11,10 +11,6 @@ Ext.define('Conference.store.Schedules', {
 		   		return dateStart.getDate()+"th of "+Ext.Date.monthNames[dateStart.getMonth()+1]+ " - "+(dateStart.getHours().toString().length > 1 ? dateStart.getHours() : "0"+dateStart.getHours())+":"+(dateStart.getMinutes().toString().length > 1 ? dateStart.getMinutes() : "0"+dateStart.getMinutes());
 		   }
 		},
-		proxy: {
-			type: 'localstorage',
-			id:'schedule-'+globalConfig.uniqueId
-        },
 		data:schedule
 	}
 });
