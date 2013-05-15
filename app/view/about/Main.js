@@ -36,6 +36,10 @@ Ext.define('Conference.view.about.Main', {
                         itemCls:"menu",
                         selectedItemCls:'selected',
                         itemTpl:"<h4>{title}</h4>"
+                    },
+                    {
+                        cls:"author",
+                        html:'<p>App made by <a href="http://twitter.com/flrent">@flrent</a></p>'
                     }
                 ]
             }
