@@ -8,8 +8,8 @@ var schedule = [
             "description":"I am an enthusiast software engineer, mostly interested in programming languages and compiler optimizations. I curently work on the V8 Javascript virtual machine in the Chrome team in Google. In the past I have worked on the Mono JIT compiler (the free software CLR reimplementation) in Novell with Miguel de Icaza, and on game servers, virtual tradeshows rendered online in a browser window, embedded systems, GSM networks, J2EE and databases."
         },
         "location":"Keynote",
-        "starting_at":"2013-05-15 09:45:00",
-        "ending_at":"2013-05-15 10:45:00"
+        "starting_at":"2013/05/15 09:45:00",
+        "ending_at":"2013/05/15 10:45:00"
    },
    {
         "uid":"talk-204",
@@ -20,8 +20,8 @@ var schedule = [
             "description":"Marc Grabanskis background is in open source. He created the jQuery UI Datepicker project. Marc is now focused on connecting experts in order to create the highest quality education possible with workshops and training events. Events he has created include Day of JavaScript on Mobile at Google HQ, Frontend Masters Workshop Series I & II and several other events in and around Minnesota. Marcs deepest area of expertise is in building UI-intensive applications. He has built out countless diverse interfaces through consulting for fortune 50 to silicon valley companies and startups. Lately he has been consulting on projects using SVG/RaphaelJS, web applications built on top of jQuery mobile and is running a premium training website for web developers at http://frontendmasters.com Speaking History: 2012 - MN Web Design - JavaScript MN - Responsive Web Design Summit - DevCon5 in New York - JS Day in Verona, Italy - DevCon5 in Santa Clara CA - Zenith Social Media 2011 - Mobile JavaScript Summit - MinneBar - MinneWebCon 2010 - jQuery Summit - Epicenter Ireland in Dublin, Ireland - jQuery Conference in Mountain View, CA - MinneWebCon - Ruby MN User Group - Israel Internet Association Web in Tel Aviv, Israel 2009 - jQuery Summit - jQuery Conference in Boston, MA - Epicenter in Dublin, Ireland - MinneWebCon - Twin Cities Web Design 2007 - jQueryCamp in Boston, MA - CakeFest in Orlando, FL Events I've Created: - Frontend Masters Workshop Series I & II - Evening of jQuery Mobile - Day of JavaScript on Mobile at Google HQ http://dayofjs.com - Evening of Canvas, jQuery and Node.JS - Evening of jQuery and HTML5 2010"
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 11:00:00",
-        "ending_at":"2013-05-15 11:30:00"
+        "starting_at":"2013/05/15 11:00:00",
+        "ending_at":"2013/05/15 11:30:00"
    },
    {
         "uid":"talk-173",
@@ -32,8 +32,8 @@ var schedule = [
             "description":"I'm a programmer at Pusher and for the last year I've been working on numerous JavaScript projects on both client-side and using Node."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 11:00:00",
-        "ending_at":"2013-05-15 11:30:00"
+        "starting_at":"2013/05/15 11:00:00",
+        "ending_at":"2013/05/15 11:30:00"
    },
    {
         "uid":"talk-165",
@@ -44,8 +44,8 @@ var schedule = [
             "description":"I'm the VP of R&D at Kapow Software, which is a company in the rapid application integration space. I'd like to give this talk together with a colleague of mine, Benjamin Owe, who is a senior software engineer at Kapow. One of the things we've had the pleasure of working with is reengineering Internet Explorer with the purpose of creating a fully controllable browser for automation purposes, which has taught us a great deal about the mysterious ways of IE."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 11:30:00",
-        "ending_at":"2013-05-15 12:00:00"
+        "starting_at":"2013/05/15 11:30:00",
+        "ending_at":"2013/05/15 12:00:00"
    },
    {
         "uid":"talk-169",
@@ -56,8 +56,8 @@ var schedule = [
             "description":"I started creating first programs during primary school being inspired by older brothers' IT class home assignments. During years I developed bigger and smaller applications in various programming languages, both as a professional assignments and personal pet projects. I started my professional career by winning a programming competition organized by vehicle tracking company at the collage. I was a lead developer on some startups that turned out to be a huge success in Poland (ankietka.pl is now number one survey system in Poland). I was also a lead front-end developer who created a ‘virtual assessment center’ system for one of the biggest Polish telecom companies. Not being satisfied with innovativeness of the tasks, I started applying for fully remote positions at startup companies to work on cutting edge projects which could better utilize my skill set. Currently I'm working in a test-centered company that strongly believes in automated testing solutions. We provide infrastructure and work on making testing more accessible for every developer. I've been contributing to open source projects such as: WD.js, Selenium Builder, Appium."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 11:30:00",
-        "ending_at":"2013-05-15 12:00:00"
+        "starting_at":"2013/05/15 11:30:00",
+        "ending_at":"2013/05/15 12:00:00"
    },
    {
         "uid":"talk-170",
@@ -68,8 +68,8 @@ var schedule = [
             "description":"I'm a software craftsman, striving to find the best tools for the work I'm doing, and looking forward to build 'things' that are useful and beautiful. I love optimizing whatever I need to do and always look for ways to automate my processes. I've been working as a developer for many years on web applications, ERP systems and telecom projects in a variety of projects. A few past notable works of mine: I'm the lead developer for the miojob.repubblica.it web site and the community section of www.adviseonly.com."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 12:00:00",
-        "ending_at":"2013-05-15 13:00:00"
+        "starting_at":"2013/05/15 12:00:00",
+        "ending_at":"2013/05/15 13:00:00"
    },
    {
         "uid":"talk-168",
@@ -80,8 +80,8 @@ var schedule = [
             "description":"Jakob is an entrepreneur. His current company, which he co-founded as CTO, is his third startup. He is a developer at heart and started out building games using C++, but ended up building web based services and fell in love with JavaScript. Lately he has also become a huge fan of Node.js. When Jakob is involved, JavaScript is everywhere and great architecture is the top priority. Over the last years he has been sharing his thoughts and experiences on programming languages, working in startups and building better software at a large number of universities and conferences all over Europe."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 12:00:00",
-        "ending_at":"2013-05-15 13:00:00"
+        "starting_at":"2013/05/15 12:00:00",
+        "ending_at":"2013/05/15 13:00:00"
    },
    {
         "uid":"talk-171",
@@ -92,8 +92,8 @@ var schedule = [
             "description":"I created my first website in 2000. Since 2005 I've been working professionally as a front-end developer, architect and manager for companies like Roche and Nokia. Since last year I've been a developer at Wooga in Berlin, where I worked on an HTML5 mobile game. I'm currently having an affair with native game development for the iOS platform."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 14:30:00",
-        "ending_at":"2013-05-15 15:00:00"
+        "starting_at":"2013/05/15 14:30:00",
+        "ending_at":"2013/05/15 15:00:00"
    },
    {
         "uid":"talk-160",
@@ -104,8 +104,8 @@ var schedule = [
             "description":"I am a client-side developer with server-side tendencies and a love for all things JavaScript and vim. I used to work at the BBC working on Topgear.com, BBC Homepage and BBC iPlayer. Since then, I have build my fair share of SPAs (single page web apps) and am now developing at Nelm.io."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 14:30:00",
-        "ending_at":"2013-05-15 15:00:00"
+        "starting_at":"2013/05/15 14:30:00",
+        "ending_at":"2013/05/15 15:00:00"
    },
    {
         "uid":"talk-177",
@@ -116,8 +116,8 @@ var schedule = [
             "description":"After working for a few years as a R&D engineer on some obscure stuff like network protocols, service discovery and infrastructures for information sharing, I decided to try something different and became a full-stack web developer. Now I am an engineer at Nokia Berlin, where I spend my time playing with maps and developing the next big thing you will soon see on HERE.com. In my free time I work on jHERE, my open source jQuery plugin that helps developers embedding beautiful maps in their websites and web apps. Since I believe coding is mostly fun, I work on many other - often crazy - side projects, as you can tell by looking at my Github account."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 15:00:00",
-        "ending_at":"2013-05-15 16:00:00"
+        "starting_at":"2013/05/15 15:00:00",
+        "ending_at":"2013/05/15 16:00:00"
    },
    {
         "uid":"talk-159",
@@ -128,8 +128,8 @@ var schedule = [
             "description":"I’m a Senior Computer Scientist at Adobe. My work involves exploring web technologies and building prototypes of web development tools. I’ve also been one of the architects of Adobe AIR (Linux, Android and iOS) and have worked on the Adobe Reader (Linux)."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 15:00:00",
-        "ending_at":"2013-05-15 16:00:00"
+        "starting_at":"2013/05/15 15:00:00",
+        "ending_at":"2013/05/15 16:00:00"
    },
    {
         "uid":"talk-162",
@@ -140,8 +140,8 @@ var schedule = [
             "description":"Mark founded a small web-agency called Happyworm back in 2001 and has worked there ever since. He is the project co-ordinator of jPlayer the popular JS audio/video library. In 2012 Mark worked with Al Jazeera as part of the Knight-Mozilla Open News program and produced several interactives published on aljazeera.com. Mark has also worked with the BBC R&D on Perceptive Media. Mark blogs a lot, mostly about new and emerging HTML5 APIs and JavaScript libraries and has run courses for the W3C on HTML5 Audio and Video. He also runs a course on web media at the University of Florence. Mark's current passion is to push web based audio to the limit and to this end has recently set up Hyperaudio Incorporated as a non-profit in the US."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 16:30:00",
-        "ending_at":"2013-05-15 17:30:00"
+        "starting_at":"2013/05/15 16:30:00",
+        "ending_at":"2013/05/15 17:30:00"
    },
    {
         "uid":"talk-234",
@@ -152,8 +152,8 @@ var schedule = [
             "description":"Alvaro Videla works at VMware as Developer Advocate for Cloud Foundry. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book ''RabbitMQ in Action'' for Manning Publishing. Some of his open source projects can be found here: http://github.com/videlalvaro. Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 16:30:00",
-        "ending_at":"2013-05-15 17:30:00"
+        "starting_at":"2013/05/15 16:30:00",
+        "ending_at":"2013/05/15 17:30:00"
    },
    {
         "uid":"talk-214",
@@ -164,8 +164,8 @@ var schedule = [
             "description":"Ben Lavender is GitHub's only developer in New Orleans. He sits alone most days, listening to loud headphones and making websites with exploding dinosaurs. Somehow this results in work useful enough that he's an ad-hoc organizer of the local tech community. He's @bhuga everywhere."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-15 17:30:00",
-        "ending_at":"2013-05-15 18:00:00"
+        "starting_at":"2013/05/15 17:30:00",
+        "ending_at":"2013/05/15 18:00:00"
    },
    {
         "uid":"talk-172",
@@ -176,8 +176,8 @@ var schedule = [
             "description":"Front-end developer. Creator of jsPerf.com. Creator of the Punycode conversion library that’s part of Node.js. Core dev team member of the HTML5 Boilerplate project."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-15 17:30:00",
-        "ending_at":"2013-05-15 18:00:00"
+        "starting_at":"2013/05/15 17:30:00",
+        "ending_at":"2013/05/15 18:00:00"
    },
    {
         "uid":"talk-174",
@@ -188,8 +188,8 @@ var schedule = [
             "description":"I'm senior developer and trainer at dkd Internet Service GmbH in Frankfurt Germany. I develop Sencha Touch and Ext JS application and extensions for the TYPO3 CMS. Beside developing i held trainings for both Sencha Touch and ExtJS. I'm active in the Sencha community, organizer of the Sencha meetup Frankfurt and did talks at conferences like SenchaCon, JSDay.it, SourcDevcon and several TYPO3 conferences. "
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 11:00:00",
-        "ending_at":"2013-05-16 11:00:00"
+        "starting_at":"2013/05/16 11:00:00",
+        "ending_at":"2013/05/16 11:00:00"
    },
    {
         "uid":"talk-202",
@@ -200,8 +200,8 @@ var schedule = [
             "description":"Pietro Brambati is a passionate developer ninja. He likes working with different kind of languages and framework, working on different size applications, scaling from mobile device apps to large, enterprise- ready applications. He has been working with Microsoft where he has the opportunity to work with developer and academic community. You can reach him at the main developer events and hackathon all around Italy."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 11:00:00",
-        "ending_at":"2013-05-16 11:30:00"
+        "starting_at":"2013/05/16 11:00:00",
+        "ending_at":"2013/05/16 11:30:00"
    },
    {
         "uid":"talk-166",
@@ -212,8 +212,8 @@ var schedule = [
             "description":"Michal is a Tabasco fan from Poland, addicted to TV series and working at Mozilla on FirefoxOS. He currently lives in Paris, where he eats snails, frog legs and croissants. He is also the organizer of onGameStart, the world's first large scale HTML5 gaming conference. He is also JsDay veteran, attending the conference since the very first edition."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 11:30:00",
-        "ending_at":"2013-05-16 12:00:00"
+        "starting_at":"2013/05/16 11:30:00",
+        "ending_at":"2013/05/16 12:00:00"
    },
    {
         "uid":"talk-163",
@@ -224,8 +224,8 @@ var schedule = [
             "description":"Marco is a Javascript Pirate. Father of two, meteoropathic and with an insane passion for lo-fi music. Frontend developer since he was able to grow a beard, he worked for Yoox Group for 5 years and then, after 1 year with Spreaker.com, decided to move to London. Now he is employed at Shazam, where he's currently using the experience of his years spent designing and maintaining clientside architectures, APIs and continuous integration processes. He is proudly involved in the organization of From The Front conferences."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 11:30:00",
-        "ending_at":"2013-05-16 12:00:00"
+        "starting_at":"2013/05/16 11:30:00",
+        "ending_at":"2013/05/16 12:00:00"
    },
    {
         "uid":"talk-176",
@@ -236,8 +236,8 @@ var schedule = [
             "description":"Clipperz.com co-founder"
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 12:00:00",
-        "ending_at":"2013-05-16 13:00:00"
+        "starting_at":"2013/05/16 12:00:00",
+        "ending_at":"2013/05/16 13:00:00"
    },
    {
         "uid":"talk-167",
@@ -248,8 +248,8 @@ var schedule = [
             "description":"Alvaro Videla works at VMware as Developer Advocate for Cloud Foundry. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book ''RabbitMQ in Action'' for Manning Publishing. Some of his open source projects can be found here: http://github.com/videlalvaro. Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 12:00:00",
-        "ending_at":"2013-05-16 13:00:00"
+        "starting_at":"2013/05/16 12:00:00",
+        "ending_at":"2013/05/16 13:00:00"
    },
    {
         "uid":"talk-175",
@@ -260,8 +260,8 @@ var schedule = [
             "description":"Jonathan is a software engineer at Etsy, where he focuses on solving web performance and scalability challenges. Prior to working at Etsy he spent almost four years at Wayfair, where he led the team that converted the primary tech stack to PHP/Lighttpd/FreeBSD. He started and organizes the Boston Web Performance Meetup Group, and he contributes to a few open source projects, including the HTTPArchive and CSSLint. Jonathan blogs regularly at http://www.jonathanklein.net and can be found on Twitter at @jonathanklein."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 14:30:00",
-        "ending_at":"2013-05-16 15:00:00"
+        "starting_at":"2013/05/16 14:30:00",
+        "ending_at":"2013/05/16 15:00:00"
    },
    {
         "uid":"talk-235",
@@ -272,8 +272,8 @@ var schedule = [
             "description":"Jakob is an entrepreneur. His current company, which he co-founded as CTO, is his third startup. He is a developer at heart and started out building games using C++, but ended up building web based services and fell in love with JavaScript. Lately he has also become a huge fan of Node.js. When Jakob is involved, JavaScript is everywhere and great architecture is the top priority. Over the last years he has been sharing his thoughts and experiences on programming languages, working in startups and building better software at a large number of universities and conferences all over Europe."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 14:30:00",
-        "ending_at":"2013-05-16 15:00:00"
+        "starting_at":"2013/05/16 14:30:00",
+        "ending_at":"2013/05/16 15:00:00"
    },
    {
         "uid":"talk-164",
@@ -284,8 +284,8 @@ var schedule = [
             "description":"I'm a web developer that writes application in C#, Ruby and Javascript."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 15:00:00",
-        "ending_at":"2013-05-16 16:00:00"
+        "starting_at":"2013/05/16 15:00:00",
+        "ending_at":"2013/05/16 16:00:00"
    },
    {
         "uid":"talk-178",
@@ -296,8 +296,8 @@ var schedule = [
             "description":"I'm an independent consultant and coacher based at Madrid, a very eclectic professional with very different interests and more than 12 years of experience. Some of my areas of expertise are JS, REST, noSQL, compilers, object oriented programming and functional programming. As an agile practitioner, I use TDD/BDD and emergent design in my every day work and tries to travel light. With experience in both front end and server side development, I think of myself as a full stack engineer. Although I've worked with several technical stacks, including JAVA/JEE, in 2005 I fell in love with JS. Since then I focus on working with JS and HTML5. Nowadays I'm very happy to be able to apply my JS knowledge to the server side thanks to projects like NodeJS. Self published writer, I'm writing what seems to be the first book about REST APIs design in spanish at lean pub (https://leanpub.com/introduccion_apis_rest). In my free time run a (kind of controversial) blog in spanish about software engineering: http://eamodeorubio.wordpress.com/ Currently I'm collaborating with Agilar (http://www.agilar.org/) as a XP Coacher & Trainer, and recently I became the CTO of a startup called HipHunters (a fashion social network). An active member of the JS community, I'm cofounder and coorganizer of MadridJS local developers group (http://www.meetup.com/madridjs/) and the SpainJS international conference (http://spainjs.org/)."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 15:00:00",
-        "ending_at":"2013-05-16 16:00:00"
+        "starting_at":"2013/05/16 15:00:00",
+        "ending_at":"2013/05/16 16:00:00"
    },
    {
         "uid":"talk-225",
@@ -308,8 +308,8 @@ var schedule = [
             "description":"I am an enthusiast software engineer, mostly interested in programming languages and compiler optimizations. I curently work on the V8 Javascript virtual machine in the Chrome team in Google. In the past I have worked on the Mono JIT compiler (the free software CLR reimplementation) in Novell with Miguel de Icaza, and on game servers, virtual tradeshows rendered online in a browser window, embedded systems, GSM networks, J2EE and databases."
         },
         "location":"Track 1",
-        "starting_at":"2013-05-16 16:00:00",
-        "ending_at":"2013-05-16 17:00:00"
+        "starting_at":"2013/05/16 16:00:00",
+        "ending_at":"2013/05/16 17:00:00"
    },
    {
         "uid":"talk-179",
@@ -320,8 +320,8 @@ var schedule = [
             "description":"Dan has over 8 years experience developing innovative web-based applications using a variety of technologies, and specialises in ASP.NET C# and JavaScript. He established the South-West England Sencha Meetup Group in 2011, to help bring the Sencha developer community together in the region. In early 2012, Dan joined Sencha as one of their Sales Engineers in Europe, where he provides pre-sales technical assistance regarding the Sencha product line."
         },
         "location":"Track 2",
-        "starting_at":"2013-05-16 16:00:00",
-        "ending_at":"2013-05-16 17:00:00"
+        "starting_at":"2013/05/16 16:00:00",
+        "ending_at":"2013/05/16 17:00:00"
    },
    {
         "uid":"talk-156",
@@ -332,7 +332,7 @@ var schedule = [
             "description":"Phil is a JavaScript developer who has been developing web applications since the late 90s. These days in his role as a Technical Director at R/GA in London, working for clients like Nike, O2, Beats By Dre and Getty Images, he focuses on technical architectures, wrangling developers and designers, and banging on about things like unobtrusive JavaScript, open web standards and tasty browser shenanigans. Some say that his Instagram feed contains more photos of cats than might be considered healthy for a grown man, but he's convinced that he doesn't have a problem."
         },
         "location":"Keynote",
-        "starting_at":"2013-05-16 09:45:00",
-        "ending_at":"2013-05-16 10:45:00"
+        "starting_at":"2013/05/16 09:45:00",
+        "ending_at":"2013/05/16 10:45:00"
    }
 ];
