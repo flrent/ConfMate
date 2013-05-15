@@ -1,9 +1,9 @@
 CACHE MANIFEST
 # 2fb87e0929c5984a57bc31c8708526129eceb4ba
 index.html
-# be37911a7a27d5b8a6f140f055b1666733c3c2e9
+# 02d828ed812b9c5e2031d4090336b00da5aa5b7c
 app.js
-# 1198b99cabb1f147a6d4eb5ef9f21243e37b7cda
+# 891ceb1e3a68fb02e37dec6a28fd84b80e277ede
 app.json
 # 2165ca30eeb251556a1a0171f9054595f83b7fcf
 config.js
@@ -11,7 +11,7 @@ config.js
 schedule.js
 # dfaa8b9841398f97f271cf7061cdaa2829d928ba
 resources/fonts/rokkitt.woff
-# e91d0a46129130ed92f4e6162d21f48a45d630ee
+# 5d40f07be1ccb8c8027371f804d03379857f9186
 resources/css/app.css
 # 4a6bf616a16939fc15447f53747771da2c1e2e21
 resources/images/logo.png
