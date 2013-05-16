@@ -16,11 +16,11 @@ Ext.define('Conference.view.about.Main', {
                 items:[
                     {
                         cls:'image',
-                        html:'<img src="'+globalConfig.logo+'">',
-                        flex:0.8
+                        html:'<img src="'+globalConfig.logo+'" height="100%">',
+                        flex:1
                     },
                     {
-                        flex:1.2,
+                        flex:1,
                         xtype:'dataview',
                         scrollable:false,
                         data:[

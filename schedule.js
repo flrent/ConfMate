@@ -1,338 +1,302 @@
 var schedule = [
    {
-        "uid":"talk-226",
-        "title":"Javascript: Evolution and Perspectives",
-        "description":"Javascript is a programming language, but what kind of language is it? How did it become what it is? Is it 'the right tool for the job'? Does it even matter if it is the right tool or not? Is it improving or getting worse? Do we know what to expect from its future? Do we even know what we want from its future? And if we do, can we influence it?",
-        "speaker":{
-            "name":"Massimiliano Mantione ",
-            "description":"I am an enthusiast software engineer, mostly interested in programming languages and compiler optimizations. I curently work on the V8 Javascript virtual machine in the Chrome team in Google. In the past I have worked on the Mono JIT compiler (the free software CLR reimplementation) in Novell with Miguel de Icaza, and on game servers, virtual tradeshows rendered online in a browser window, embedded systems, GSM networks, J2EE and databases."
-        },
-        "location":"Keynote",
-        "starting_at":"2013/05/15 09:45:00",
-        "ending_at":"2013/05/15 10:45:00"
+      "uid":"talk-134",
+      "title":"PHP 5.5 new features",
+      "description":"PHP 5.5 is on its way! This talk will show you what new features we added in PHP5.5. We'll then talk about Generators, new password hashing API, finally keword... Also, we'll see what new functions/methods has been added in Core or extension as well as what's been deprecated and the backward compatibility breaks. This talk is all you need to know about the 5.5 release.",
+      "speaker":{
+         "name":"Julien Pauli ",
+         "description":"Julien is an architect working at Blablacar Paris, he has been programming in PHP since 10 years. He dove into PHP internals code 3 years ago and is now helping debugging an improving the language. He is the PHP 5.5 release manager."
+      },
+      "location":"Keynote",
+      "starting_at":"2013/05/17 09:45:00",
+      "ending_at":"2013/05/17 10:45:00"
    },
    {
-        "uid":"talk-204",
-        "title":"Vector Graphics with SVG & RaphaelJS",
-        "description":"Computers screens come in all different sizes. To handle graphics for different cases, most web applications serve multiple different sizes of images. Now with retina displays it is only compounding the problem. With SVG Scalable Vector Graphics your graphics can scale up and down with ease. In this session, Marc will teach you how to start using SVG and some of the pros and cons of using it to build web interfaces. He will also cover RaphaelJS and provide you with tools to make working with SVG more efficient and work in a wider amount of web browsers.",
-        "speaker":{
-            "name":"Marc Grabanski ",
-            "description":"Marc Grabanskis background is in open source. He created the jQuery UI Datepicker project. Marc is now focused on connecting experts in order to create the highest quality education possible with workshops and training events. Events he has created include Day of JavaScript on Mobile at Google HQ, Frontend Masters Workshop Series I & II and several other events in and around Minnesota. Marcs deepest area of expertise is in building UI-intensive applications. He has built out countless diverse interfaces through consulting for fortune 50 to silicon valley companies and startups. Lately he has been consulting on projects using SVG/RaphaelJS, web applications built on top of jQuery mobile and is running a premium training website for web developers at http://frontendmasters.com Speaking History: 2012 - MN Web Design - JavaScript MN - Responsive Web Design Summit - DevCon5 in New York - JS Day in Verona, Italy - DevCon5 in Santa Clara CA - Zenith Social Media 2011 - Mobile JavaScript Summit - MinneBar - MinneWebCon 2010 - jQuery Summit - Epicenter Ireland in Dublin, Ireland - jQuery Conference in Mountain View, CA - MinneWebCon - Ruby MN User Group - Israel Internet Association Web in Tel Aviv, Israel 2009 - jQuery Summit - jQuery Conference in Boston, MA - Epicenter in Dublin, Ireland - MinneWebCon - Twin Cities Web Design 2007 - jQueryCamp in Boston, MA - CakeFest in Orlando, FL Events I've Created: - Frontend Masters Workshop Series I & II - Evening of jQuery Mobile - Day of JavaScript on Mobile at Google HQ http://dayofjs.com - Evening of Canvas, jQuery and Node.JS - Evening of jQuery and HTML5 2010"
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 11:00:00",
-        "ending_at":"2013/05/15 11:30:00"
+      "uid":"talk-131",
+      "title":"In-Depth with Composer",
+      "description":"Composer is a new PHP dependency manager that can solve a lot of common problems you may have. In this session you will learn how to leverage Composer to achieve various more advanced tasks like using a fork of a project, hosting private packages or specifying advanced version constraints. You are expected to already be comfortable with Composer usage and eager to learn about it in more depth.",
+      "speaker":{
+         "name":"Jordi Boggiano ",
+         "description":"Jordi Boggiano is the author of a few open source apps/libs (Composer, Monolog, php-console, ..), and frequent contributor to other OSS projects (Symfony2, Twig and others). He has been involved in web development for over 10 years, working mostly with PHP and JavaScript, and is currently doing Symfony2 consulting and application development at Nelmio. Find out more at http://nelm.io/jordi"
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 11:00:00",
+      "ending_at":"2013/05/17 12:00:00"
    },
    {
-        "uid":"talk-173",
-        "title":"When WebSockets are not an option",
-        "description":"WebSockets have been with us for quite a while, but there are still people using ancient browsers or being held back by selfish proxies. Because of that, it's difficult to find out which type of connection is best for a client, so Pusher needed a flexible way to tell clients how to establish a real-time connection efficiently and also monitor their behaviour. This talk will give you an overview on how it works, what interesting metrics we got out of it and how we evaluated them. # Agenda 1. Why can't we just stick with WebSockets? 2. Why Websockets are generally superior? 3. Why doesn't Pusher just change JS on the fly? 4. Goals: a) improve initial connection latency, b) provide clients with best possible transport, c) keep costs reasonable, d) get to know our connections, e) have another way to balance the load. 5. Design of our connection strategy mechanism. 6. Our awesome JSON DSL for specifying strategies. 7. Modifying client behaviour on the fly. 8. Pushing client status as a timeline. 9. Interesting stats and what we learned from them.",
-        "speaker":{
-            "name":"Paweł Ledwoń ",
-            "description":"I'm a programmer at Pusher and for the last year I've been working on numerous JavaScript projects on both client-side and using Node."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 11:00:00",
-        "ending_at":"2013/05/15 11:30:00"
+      "uid":"talk-126",
+      "title":"Monitoring at scale: intuitive dashboard design",
+      "description":"At a certain scale, millions of events happen every second, and all of them are important to evaluate the health of the system. If not handled correctly, such a volume of information can overwhelm both the infrastructure that needs to support them, and people who have to make a sense out of thousands of signals and make decisions upon them, fast. By understanding how our rational mind works, how people process information, we can present data so it's more evident and intuitive. This talk will explain how to collect useful metrics, and to create the perfect monitoring dashboard to organise and display them, letting our intuition operate automatically and quickly, and saving attention and mental effort to activities that demand it.",
+      "speaker":{
+         "name":"Lorenzo Alberton ",
+         "description":"'Lorenzo Alberton (@lorenzoalberton) is the Chief Technical Architect at DataSift, where he's helping a highly talented team processing thousands of messages per second from Twitter and other data sources. A highly skilled Software Engineer, his expertise lies in large-scale software architectures, low-latency platforms, machine learning, databases, efficient algorithms and data structures. For the past 10 years Lorenzo has been working with large enterprise companies in Italy, US and UK, in high-visibility projects affecting millions of users in different domains, from Television and Communication, to Finance and Betting, Manufacturing and Internet Security (BBC, Channel 5, Ladbrokes, AVG, C&W, etc.). '"
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 11:00:00",
+      "ending_at":"2013/05/17 12:00:00"
    },
    {
-        "uid":"talk-165",
-        "title":"JS in browsers - WTF!",
-        "description":"We would like to show you some of the weirdness going on when trying to execute seemingly straightforward JavaScript. Not least should you be painfully aware of the browser and document modes that your website is interpreted in, as this can radically affect the behavior of your scripts. This talk will be full of examples of JS code that has caused us some headaches and 'WTF' experiences.",
-        "speaker":{
-            "name":"Anne-Sofie Nielsen ",
-            "description":"I'm the VP of R&D at Kapow Software, which is a company in the rapid application integration space. I'd like to give this talk together with a colleague of mine, Benjamin Owe, who is a senior software engineer at Kapow. One of the things we've had the pleasure of working with is reengineering Internet Explorer with the purpose of creating a fully controllable browser for automation purposes, which has taught us a great deal about the mysterious ways of IE."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 11:30:00",
-        "ending_at":"2013/05/15 12:00:00"
+      "uid":"talk-159",
+      "title":"Puppeteering your symfony2 project",
+      "description":"So you know about puppet and know the power it can bring into configuring and maintaining your project's infrastructure. But how do you integrate Vagrant and Puppet inside your symfony2 project correctly? How do we deal with the catches of having both windows and linux based developers and how do we easily create completely working symfony2 environments with just issuing single command. This talk is not about an introduction in Puppet and Vagrant, but how we can implement these tools in your project. A bit of Puppet and Vagrant knowledge is preferred, but not strictly needed though.",
+      "speaker":{
+         "name":"Joshua Thijssen ",
+         "description":"Freelance consultant, developer and trainer. His daily work consists of maintaining code bases, working on different projects and helping other to achieve higher standards in both coding and thinking. Lead dev of Saffire - a new web/system OO programming language. Author of book PHP|Architects ''Mastering the SPL'' Regular writer for php|architect magazine International speaker / trainer at conferences, including: - FrOSCon - Bonn - Germany - PHPNW - Manchester - United Kingdom - PHP|Tek - Chicago - United States - Whiskyweb - Edinburgh - United Kingdom - Mail.ru Techforum - Moscow - Russia - ZendCon - San Francisco - United States - 4developers - Warschau, Poznan - Poland - PHPBenelux - Antwerp - Belgium - Loadays - Antwerp - Belgium - PFCongres - Utrecht - Netherland - Many usergroups and meetups http://adayinthelifeof.nl https://joind.in/user/view/1678"
+      },
+      "location":"Track 3",
+      "starting_at":"2013/05/17 11:00:00",
+      "ending_at":"2013/05/17 13:00:00"
    },
    {
-        "uid":"talk-169",
-        "title":"Automated Cross-browser Testing with Node",
-        "description":"Web apps have proven to be a solid foundation for many tasks that were reserved for 'serious' desktop apps not that long ago. Their complexity grows rapidly making codebase hard to grasp. Errors during implementation are inevitable (at least for us - humans ;) ). As application grows, probability of unwanted effects and regression is becoming a real issue that can ruin project in a long term. Furthermore, development cycle that does not give immediate feedback to development team about effects of changes on the application behavior makes them unaware of the real effects of their code modifications. As if this was not enough, web developers need to live in an ecosystem of diversified browsers on which their app might be used. Solutions to such problems are available to the public as an open source projects. Selenium has been created to imitate real user behavior as closely as possible. Creating integration tests as a part of development process is really fun as it's basically writing code in your favorite language. During my talk I will present optimal development cycle for rich user interface apps, show the difference between unit and integration tests, show how to start your first test, talk about best practices, show both pros and cons, present handful tools that will make creating tests even easier, share some tips that will make you tests rock and make a little sneak peak into the future of test automation!",
-        "speaker":{
-            "name":"Bernard Kobos ",
-            "description":"I started creating first programs during primary school being inspired by older brothers' IT class home assignments. During years I developed bigger and smaller applications in various programming languages, both as a professional assignments and personal pet projects. I started my professional career by winning a programming competition organized by vehicle tracking company at the collage. I was a lead developer on some startups that turned out to be a huge success in Poland (ankietka.pl is now number one survey system in Poland). I was also a lead front-end developer who created a ‘virtual assessment center’ system for one of the biggest Polish telecom companies. Not being satisfied with innovativeness of the tasks, I started applying for fully remote positions at startup companies to work on cutting edge projects which could better utilize my skill set. Currently I'm working in a test-centered company that strongly believes in automated testing solutions. We provide infrastructure and work on making testing more accessible for every developer. I've been contributing to open source projects such as: WD.js, Selenium Builder, Appium."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 11:30:00",
-        "ending_at":"2013/05/15 12:00:00"
+      "uid":"talk-138",
+      "title":"REST APIs made easy with Symfony2",
+      "description":"REST is an architecture style for designing networked applications which has gained much traction lately, mainly due to its simplicity and for only requiring HTTP as the communication protocol. This talk will leverage the extensibility and configurability of Symfony2 to easily create a reusable and testable REST API in minutes. Watch as we cover some real world examples and fill the gap where the abstraction layer falls short in providing the implementation for specific requirements. We will dive into how data can be serialized & deserialized with little effort as possible whilst supporting different formats, namely JSON & XML. Authentication and Authorization will be visited in order to exemplify the security aspects of a real world API. Sam will talk about how to document the API without effort and have that documentation generated automatically for end user consumption. Also we will fiddle with a web sandbox for instant access to the API. Overall, Sam will talk about the different components that are necessary to build an API with ease.",
+      "speaker":{
+         "name":"Samuel Gordalina ",
+         "description":"With over 10 years of experience in developing for the web, Sam is currently a software engineer working at Nelmio building modern web applications to the highest standards using Symfony2 and Backbone.js. Co-founder of phplx - the Lisbon PHP user group - phplx.net."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 12:00:00",
+      "ending_at":"2013/05/17 13:00:00"
    },
    {
-        "uid":"talk-170",
-        "title":"The anatomy of an infographic",
-        "description":"We have a lot of data at our disposal, and we are ever more producing and collecting data from multiple sources. Data visualizations let us turn raw data into relevant information and make it easier to extract meaning from the information and to reason about it. My talk will show you three visualizations of increasing complexity all developed with d3js and we'll  analyze how they are built. We'll see how the different parts fit together to transform a set of raw data into an interactive experience that allows exploring and understanding the information hidden inside it.",
-        "speaker":{
-            "name":"Luca Mearelli ",
-            "description":"I'm a software craftsman, striving to find the best tools for the work I'm doing, and looking forward to build 'things' that are useful and beautiful. I love optimizing whatever I need to do and always look for ways to automate my processes. I've been working as a developer for many years on web applications, ERP systems and telecom projects in a variety of projects. A few past notable works of mine: I'm the lead developer for the miojob.repubblica.it web site and the community section of www.adviseonly.com."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 12:00:00",
-        "ending_at":"2013/05/15 13:00:00"
+      "uid":"talk-133",
+      "title":"Fatal Error: Allowed memory size of X bytes exhausted",
+      "description":"Everybody has already met this particular error. This talk will start by recalling you what the memory is in computer science. We'll then foresee how PHP deals with memory by introducing the internal component Zend Memory Manager. Then, we'll show you how to code efficiently by avoiding leaks in your code, talking about garbage collection, circular references, and copy on write mechanisms, particulary usefull to know when designing batch scripts",
+      "speaker":{
+         "name":"Julien Pauli ",
+         "description":"Julien is an architect working at Blablacar Paris, he has been programming in PHP since 10 years. He dove into PHP internals code 3 years ago and is now helping debugging an improving the language. He is the PHP 5.5 release manager."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 12:00:00",
+      "ending_at":"2013/05/17 13:00:00"
    },
    {
-        "uid":"talk-168",
-        "title":"Manage those dependencies!",
-        "description":"Package- and dependency management is like source control; somehow we can manage to survive without it, but it's a pain in the ass. For some reason, web development has been a place of medival darkness without proper tools for handling packages and dependencies. Until now. This presentation will showcase how you can leverage NPM, Browserify, Yarnify, Bower, Jam, RequireJS and all of their friends to bring your application and your development process to the age of Enlightenment.",
-        "speaker":{
-            "name":"Jakob Mattsson ",
-            "description":"Jakob is an entrepreneur. His current company, which he co-founded as CTO, is his third startup. He is a developer at heart and started out building games using C++, but ended up building web based services and fell in love with JavaScript. Lately he has also become a huge fan of Node.js. When Jakob is involved, JavaScript is everywhere and great architecture is the top priority. Over the last years he has been sharing his thoughts and experiences on programming languages, working in startups and building better software at a large number of universities and conferences all over Europe."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 12:00:00",
-        "ending_at":"2013/05/15 13:00:00"
+      "uid":"talk-155",
+      "title":"Caching and data analysis will move your Symfony2 application to the next level.",
+      "description":"This presentation overviews the different meanings of caching and highlights the techniques and tricks available to improve the performance of the Symfony2 web application. It also covers the importance of keeping an eye on what’s happening within the wider system. The presentation begins with a description of the caching mechanisms that are currently included within the Symfony2.2 standard edition - such as the app/cache folder, the cache of doctrine and twig, proposed solutions for the HTTP caching, file system, query, assets(ic)s, php, and sessions. The first part of the presentation concludes with a section on ‘tricks’ and the best practices used to optimise web applications. The second part of the presentation focuses on data analysis, how to track and measure applications and why the use of software metrics that push information are essential. Delegates will be shown practical examples of how Terravision uses Statsd, Sentry versus Graylog for the error behavior analysis of users, applications, operating systems and web servers. The final part of the presentation concludes with methodologies of advanced scalability, events, messages and queues.",
+      "speaker":{
+         "name":"Giulio De Donato ",
+         "description":"I am the head developer for Terravision Group, a travel, tourism and lifestyle company working Europe-wide, headquartered in Rome. Several months ago my team and I released an e-commerce platform, written with Symfony2 and using SOA principle. We are passionate about open source and we are slowly open-sourcing bundles of this new e-commerce. At Terravision we are great believers in ’Passion Driven Development’, or in other words, allowing each individual programmer to grow and develop professionally thanks to our shared passion and the ethical working relationships we create. Before coming to Terravision, I worked in London for a web agency, and in Rome at CNR. I am also a member of the PHP Rome user group. I am a regular attendee of developer conferences and I enjoy reading IT books. "
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 14:30:00",
+      "ending_at":"2013/05/17 15:30:00"
    },
    {
-        "uid":"talk-171",
-        "title":"ECMAScript 6: Get Ready For the Future. Now.",
-        "description":"New version of ECMAScript, the standard behind JavaScript, has been in the making for few years and went through several iterations. The specification is still not final, but it is mature enough to justify a closer look. The talk will explain important new features of the language. Learn about modules, lexical scoping, proxies and see how they will change the way you write JavaScript.",
-        "speaker":{
-            "name":"Krzysztof Szafranek ",
-            "description":"I created my first website in 2000. Since 2005 I've been working professionally as a front-end developer, architect and manager for companies like Roche and Nokia. Since last year I've been a developer at Wooga in Berlin, where I worked on an HTML5 mobile game. I'm currently having an affair with native game development for the iOS platform."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 14:30:00",
-        "ending_at":"2013/05/15 15:00:00"
+      "uid":"talk-185",
+      "title":"From dev to ops and beyond - Getting it done",
+      "description":"Launching a product on the web some years ago was a massive, long awaited moment you could spend years working to towards. Nowadays you heard the term MVP (minimum viable product) a lot more than 'Version 1.0'. Agile is winning over the web and 'shipping it once' is not something people get all that excited about any more. The question is not 'When to we ship' but 'how often do we ship' and 'what do we ship'. Our ability as developers to continuously roll out changes at a sustained pace changed the game we are playing in web development. This talk aims to give an overview over the progression of developers into the current age of 'getting stuff out of the door so that we ether make money or realize it's not a good idea (yet)'. What tools, processes, roles... people do we need in our teams. What mindset helps or hinders us? Getting the code written once is easy, getting it changed is a little hard but constantly going through the whole cycle of truing ideas into usable product features is the real challenge nowadays. It's hard because it involve people, business, developers, operators, designers and customers. The nice thing about it is that involves people and if you get a well oiled machine running you can get stuff done really fast. We are going to look at this machine from a developers point of view and discuss where we come in, which part we play and where we should act as supporting cast. We are going to discuss processes and tools for continuous deployment involving business and operations to see how we can help creating amazing products by working together on: 'getting it done'.",
+      "speaker":{
+         "name":"Volker Dusch ",
+         "description":"Volker Dusch is a Software Developer born in Germany and currently working for the Scientific Network, ResearchGate, in Berlin. He started programming with PHP in the early PHP 4 days and has around 10 years of experience with the language. Having worked on big home grown legacy applications and with new 'modern' projects he is interested in keeping code maintainable so that it can be adapted fast and easily to new requirements. His current interests lie in Continues Deployment, the Clean Code movement, Test Driven Development, Agile Software Development and shipping what 'business' really needs to succeed. In his spare time he contributes to PHPUnit, jenkins-php.org and some other smaller projects while enjoying chess, poker, gaming and watching esports. You can find him on twitter http://twitter.com/__edorian, github https://github.com/edorian, and Stackoverflow http://stackoverflow.com/users/285578/edorian"
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 14:30:00",
+      "ending_at":"2013/05/17 15:30:00"
    },
    {
-        "uid":"talk-160",
-        "title":"Attack of the drones! Flying helicopters with Arduino & node.js",
-        "description":"'The Parrot AR.Drone is basically a flying linux server. Arduino is an open-source electronic prototyping platform. In this session, we mash them up and build our own analog PS like remote to fly the quadcopter. All with JavaScript and node.js!'",
-        "speaker":{
-            "name":"Gilles Ruppert ",
-            "description":"I am a client-side developer with server-side tendencies and a love for all things JavaScript and vim. I used to work at the BBC working on Topgear.com, BBC Homepage and BBC iPlayer. Since then, I have build my fair share of SPAs (single page web apps) and am now developing at Nelm.io."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 14:30:00",
-        "ending_at":"2013/05/15 15:00:00"
+      "uid":"talk-149",
+      "title":"Build a Zend Framework 2 application in less than a talk",
+      "description":"In this talk we present how to start and manage a new ZF2 application using ZFTool, the new command line tool provided in Zend Framework. We will start a new ZF2 application from scratch adding a couple of existing modules, in order to create a simple Blog application with an authentication system. The talk will have a live session code, so switch on your laptop and be ready to code.",
+      "speaker":{
+         "name":"Enrico Zimuel ",
+         "description":"I'm a software engineer since 1996. I work as Senior PHP Engineer at Zend Technologies, in the Zend Framework Team. I have been a Researcher Programmer at the Informatics Institute of the University of Amsterdam and I collaborated with the Science Department of the University of Pescara (Italy). I'm the co-author of the PHP Best Practices book, published by FAG in 2012. I'm the co-founder of the PHP User Group of Torino (Italy)."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 15:30:00",
+      "ending_at":"2013/05/17 16:30:00"
    },
    {
-        "uid":"talk-177",
-        "title":"So you wanna make a jQuery plugin… jHERE deconstructed.",
-        "description":"Out there on the Internet web developers can find a big universe of jQuery plugins for any need you can think of. Do you need a tooltip? There's a plugin for that. Do you need to handle cookies? There's a plugin for that. Do you want a map in your website? You are in luck, there's jHERE for that! Why do people create all these plugins? Mostly because they need a reusable component that can be easily be included into their web apps. So they build it, and then they are nice enough to make it available to everybody. A few months back I created jHERE, with the goal of providing a super simple API for something usually complicated: maps. With jHERE you can create maps, markers, info bubbles, heatmaps and even render KMLs with one line of code. To make life easier for the users, jHERE is however quite a complex jQuery plugin. First of all it depends on a 3rd-party API (HERE Maps) that is lazy-loaded when the plugin is first instantiated. Additionally it was built to work not only with jQuery, but with other jQuery-compatible APIs as well, e.g. Zepto.js and Tire.js. Finally, jHERE is extensible. In order to save bytes, only a small set of simple functionalities is included in the core. More advanced features can be added by writing extensions. This talk is about the journey from the first prototype of jHERE to the final, polished version of the plugin. I will start with the basics of writing a jQuery plugin, I will dive into leveraging Promises/Deferreds when 3rd-party libraries are required for the plugin to work, and I will show how to write the minimum amount of code that is essential to guarantee compatibility with other jQuery-like libraries. Then I will go into extensibility and talk about a way to support plugins for a plugin. And finally, how can you make sure a piece of code maintains the right behavior after you make changes and across releases? You can't, unless you write tests for it, so we'll have a look at unit testing for jQuery plugins. I promise you will see quite some code but also pretty slides.",
-        "speaker":{
-            "name":"Massimiliano Marcon ",
-            "description":"After working for a few years as a R&D engineer on some obscure stuff like network protocols, service discovery and infrastructures for information sharing, I decided to try something different and became a full-stack web developer. Now I am an engineer at Nokia Berlin, where I spend my time playing with maps and developing the next big thing you will soon see on HERE.com. In my free time I work on jHERE, my open source jQuery plugin that helps developers embedding beautiful maps in their websites and web apps. Since I believe coding is mostly fun, I work on many other - often crazy - side projects, as you can tell by looking at my Github account."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 15:00:00",
-        "ending_at":"2013/05/15 16:00:00"
+      "uid":"talk-151",
+      "title":"Real-time sports statistics with Node.js, web sockets and Symfony2",
+      "description":"Sports Editing Sweden's CMS named Ramses is used by the Swedish Hockey League (and other customers), including mobile home pages using HTML5/JavaScript. Examples can be found at: http://www.hockeyligan.se and http://m.hockeyligan.se The system includes, among many other things, advanced Live coverage of the hockey games. The technology behind it is based on PHP and Symfony2, toghether with websockets and Node.js. Every week during an ongoing season the system serves around 500 000 unique visitors and face heavy load peaks during the ice hockey games. To make this happen we use several physical and many virtual servers, the caching software varnish, memcache, ZeroMQ and other utilities as MySQL and mongoDB. This talk focuses on the usage of PHP and Symfony2 in coombination with Node.js and web sockets to serve hundreds of thousands of users every week.",
+      "speaker":{
+         "name":"Emanuel Winblad, Tobias Josefsson ",
+         "description":"Tobias is the CTO of Sports Editing Sweden, a media house with a staff of currently six developers and totally 15 full time employees. The company is the creator of the Symfony2 based CMS named Ramses, used by the Swedish Hockey League (and other customers), including mobile home pages using HTML5/JavaScript. Examples can be found at: http://www.hockeyligan.se and http://m.hockeyligan.se - the mobile version has replaced the former iOS and Android apps, and is also available in unique versions for the audience in the arenas. The system also has an integration to the video system of Brightcove. This makes it possible to use video in articles in a simple way and an example of a dedicated video site can be found at: http://www.elitserienplay.se Every week the system serves around 500 000 unique visitors and face heavy load peaks during the ice hockey games. This is the focus of the talk 'Real-time sports statistics with Node.js, web sockets and Symfony2', were different parts are combined into a complex and beautiful solution."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 15:30:00",
+      "ending_at":"2013/05/17 16:30:00"
    },
    {
-        "uid":"talk-159",
-        "title":"Modern JavaScript Debugging",
-        "description":"There are several tools and some not so well-known methods to debug JavaScript today. In this talk, I'll discuss modern techniques for debugging JavaScript. These include Source Maps, MutationObservers, DOM Breakpoints, Event Listener Breakpoints, Object.observe and Remote Debugging. In addition to providing useful tips and tricks for debugging JavaScript efficiently, I'll also discuss the Console API, lesser-known features of Chrome DevTools and its command line API, as well as browser tools to debug HTML5 features.",
-        "speaker":{
-            "name":"Ashutosh Sharma ",
-            "description":"I’m a Senior Computer Scientist at Adobe. My work involves exploring web technologies and building prototypes of web development tools. I’ve also been one of the architects of Adobe AIR (Linux, Android and iOS) and have worked on the Adobe Reader (Linux)."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 15:00:00",
-        "ending_at":"2013/05/15 16:00:00"
+      "uid":"talk-163",
+      "title":"Zend Framework 2 for a Symfony2 user",
+      "description":"In this presentation I'd like to compare two of the most used 2nd generation PHP framework, Symfony2 & ZF2, trying to highlight differences and similarities. The comparison will be made from a Symfony2 user point of view (that's me :-P), having in mind some concepts like dependency injection, services and so on. This talk is an extended, english version of ''Zend Framework 2 per chi viene da Symfony2'' I gave at zfday (https://joind.in/talk/view/8090)",
+      "speaker":{
+         "name":"Michele Orselli ",
+         "description":"Software engineer, working with PHP since 2005 and now CTO at Ideato. I have wide interests in several aspects of software development like automation, quality and testing. I'm co-author of 'PHP Best Practices', published by FAG in 2012. In my spare time I love swimming, reading mangas and relaxing on the beach ;-)"
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 17:00:00",
+      "ending_at":"2013/05/17 17:30:00"
    },
    {
-        "uid":"talk-162",
-        "title":"Audio and Video on the Web - It's all happening!",
-        "description":"In this talk we'll take a look at the basic building blocks of web based audio and video, what can and cannot be achieved and the issues to watch out for when developing for various platforms. We'll then find out about newer media libraries and APIs. Topics will include the advanced and recently standardised Web Audio API, and the highly disruptive WebRTC and libraries such as Popcorn.js, Howler.js and Peer.js all of which help us manipulate the wonderful world of web-based media. Oh and there'll be a couple of groovy demos.",
-        "speaker":{
-            "name":"Mark Boas ",
-            "description":"Mark founded a small web-agency called Happyworm back in 2001 and has worked there ever since. He is the project co-ordinator of jPlayer the popular JS audio/video library. In 2012 Mark worked with Al Jazeera as part of the Knight-Mozilla Open News program and produced several interactives published on aljazeera.com. Mark has also worked with the BBC R&D on Perceptive Media. Mark blogs a lot, mostly about new and emerging HTML5 APIs and JavaScript libraries and has run courses for the W3C on HTML5 Audio and Video. He also runs a course on web media at the University of Florence. Mark's current passion is to push web based audio to the limit and to this end has recently set up Hyperaudio Incorporated as a non-profit in the US."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 16:30:00",
-        "ending_at":"2013/05/15 17:30:00"
+      "uid":"talk-136",
+      "title":"Scaling an API: From Reboots to Redis, how (not) to do it",
+      "description":"My company that has grown from a small B2C app written in PHP/MySQL to a B2B advertising company doing 15 Billion API calls per month. Along the way there have been some big technology changes and decisions that have both helped and hindered us. Along the way we have had 3 day outages, several AWS outages, massive traffic spikes especially early days when we signed customers like Wordpress.com, and many many improvements, re-factors and even successes. Today and for the last year we are highly modern engineering team, using many of the latest technologies and methodologies. We code in PHP and Python with C, Go, CoffeeScript and more, store data in MongoDB, Redis, memcache, Solr and MySQL, we have a full CI environment, do deploys using IRC (and Hubot) and Puppet everything. We have 100% (not 99.999%) up time for over 12 months now.",
+      "speaker":{
+         "name":"Ciaran Rooney ",
+         "description":"Ciarán is the CTO of Skimlinks where he leads the technical innovation for Skimlinks' products and the platform's infrastructure. Before joining Skimlinks, Ciarán worked in Ireland as Head of Engineering at one of the country's largest mobile communications companies. He also worked as a freelance developer before establishing Weeno Ltd, a web application and design company. Ciarán is currently a Director of PHP London and the PHP UK Conference Chairperson."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 17:00:00",
+      "ending_at":"2013/05/17 17:30:00"
    },
    {
-        "uid":"talk-234",
-        "title":"Writing testable code",
-        "description":"We've been told many times that we should write unit tests for our code. We have read the theory and we have applied automatic testing to our projects, sometimes successfully but often times not so. Why it seems to be so hard to test our code? However we look at it, automatic testing doesn't work like a 'plug & play' peripheral. It just doesn't seem to fit with our project. A dependency is missing here; we have a hard to mock object there; and so on. What is _that_ thing we might be doing wrong but we fail to notice? In this talk we will argue that the problem lays in our code, in its structure, in the way we pass data around and even how we write for loops! This won't be your everyday 'code quality' tech talk, since we are going to attack the problem of code quality from different points of view and paradigms like Functional Programming and the Unix philosophy of simplicity and reuse.",
-        "speaker":{
-            "name":"Alvaro Videla ",
-            "description":"Alvaro Videla works at VMware as Developer Advocate for Cloud Foundry. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book ''RabbitMQ in Action'' for Manning Publishing. Some of his open source projects can be found here: http://github.com/videlalvaro. Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 16:30:00",
-        "ending_at":"2013/05/15 17:30:00"
+      "uid":"talk-161",
+      "title":"Symfony and eZ Publish",
+      "description":"Version 5 of eZ Publish is now running on Symfony 2 full stack. This talk will recount a fantastic journey, how the heart of a legacy content management engine was reworked, re-architectured, and injected into a Symfony 2 powered HMVC architecture. You will learn how two large technologies merged, what the pitfalls were, how they were overcome, and how two large developer communities touched base and look ahead together.",
+      "speaker":{
+         "name":"Gaetano Giunta ",
+         "description":"Developer, Sysadmin, Architect, Project Manager. Geek. Lead Tech Advisor in the eZ Publish Product Innovation Board. #databases #webservices #websecurity #webperfs"
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/17 17:30:00",
+      "ending_at":"2013/05/17 18:00:00"
    },
    {
-        "uid":"talk-214",
-        "title":"GitHub's Long-distance Relationships with Robots ",
-        "description":"GitHub is a fundamentally remote company, with less than 20% of the company heading in to the office each day. This is no accident: absence makes the team grow stronger. In this talk, we'll show some of the tools, conventions, and culture that make this a better way to work than working side-by-side.",
-        "speaker":{
-            "name":"Ben Lavender ",
-            "description":"Ben Lavender is GitHub's only developer in New Orleans. He sits alone most days, listening to loud headphones and making websites with exploding dinosaurs. Somehow this results in work useful enough that he's an ad-hoc organizer of the local tech community. He's @bhuga everywhere."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/15 17:30:00",
-        "ending_at":"2013/05/15 18:00:00"
+      "uid":"talk-157",
+      "title":"Elastic Searching with PHP",
+      "description":"I will give an introduction to elasticsearch (http://www.elasticsearch.org) and two ways to use it with PHP. First by directly using the php library elastica (http://elastica.io/en) and second by using the Symfony 2 bundle FOQElasticaBundle (https://github.com/Exercise/FOQElasticaBundle)",
+      "speaker":{
+         "name":"Lea Hänsenberger ",
+         "description":"I'm working as a web developer at Liip for three years where I'm mostly working on backend stuff. I'm very new to the whole open source world. But I'm just about to start help maintaining the Symfony2 elasticsearch bundle FOQElasticaBundle. When not sitting in front of a computer I'm doing crazy stuff in the air with a piece of fabric."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/17 17:30:00",
+      "ending_at":"2013/05/17 18:00:00"
    },
    {
-        "uid":"talk-172",
-        "title":"JavaScript ♥ Unicode",
-        "description":"In this presentation we’ll take a look at the various ways JavaScript relies on Unicode, what the consequences are for JavaScript developers, and how ECMAScript 6 will make our lives a bit easier in this regard. First off, the basics of Unicode will be explained. Once that’s out of the way, I’ll talk a little bit about different character encodings, only to determine the internal character encoding that JavaScript uses internally (which is kind of a mixture between UCS-2/UTF-16). Then I’ll explore the various consequences of JavaScript exposing “characters” according to UCS-2/UTF-16, and explain why it can be problematic. Finally, I’ll present robust ECMAScript 5-compatible workarounds to the issues encountered, and explain how ECMAScript 6 will make it easier to support full Unicode in JavaScript strings",
-        "speaker":{
-            "name":"Mathias Bynens ",
-            "description":"Front-end developer. Creator of jsPerf.com. Creator of the Punycode conversion library that’s part of Node.js. Core dev team member of the HTML5 Boilerplate project."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/15 17:30:00",
-        "ending_at":"2013/05/15 18:00:00"
+      "uid":"talk-176",
+      "title":"Windows Azure: what's hot!",
+      "description":"Open. Flexible. Rock Solid. If you want to use PHP, Linux and if you want to use all the goodness of OSS, come and discover how to leverage them using the new Windows Azure services!",
+      "speaker":{
+         "name":"Pietro Brambati ",
+         "description":"Pietro Brambati is a passionate developer ninja. He likes working with different kind of languages and framework, working on different size applications, scaling from mobile device apps to large, enterprise- ready applications. He has been working with Microsoft where he has the opportunity to work with developer and academic community. You can reach him at the main developer events and hackathon all around Italy."
+      },
+      "location":"Keynote",
+      "starting_at":"2013/05/18 09:45:00",
+      "ending_at":"2013/05/18 10:45:00"
    },
    {
-        "uid":"talk-174",
-        "title":"Develop and test custom components for Sencha Touch",
-        "description":"How to develop and test custom UI components for your Sencha Touch application. In this talk I will show you how to develop your own reusable UI components for your Sencha Touch Apps. Showcased with a custom 'slide rule value selector' with two scales and a custom display component we will see how to create custom UI classes and use them in your App. We will also look into how to test our components with the Siesta JavaScript testing suite.",
-        "speaker":{
-            "name":"Nils Dehl",
-            "description":"I'm senior developer and trainer at dkd Internet Service GmbH in Frankfurt Germany. I develop Sencha Touch and Ext JS application and extensions for the TYPO3 CMS. Beside developing i held trainings for both Sencha Touch and ExtJS. I'm active in the Sencha community, organizer of the Sencha meetup Frankfurt and did talks at conferences like SenchaCon, JSDay.it, SourcDevcon and several TYPO3 conferences. "
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 11:00:00",
-        "ending_at":"2013/05/16 11:00:00"
+      "uid":"talk-147",
+      "title":"The why and the how of moving to 5.4",
+      "description":"With PHP 5.4 out and many production environments still running 5.2 (or older), it's time to paint a clear picture on why everyone should move to 5.3 and 5.4 and how to get code ready for the latest version of PHP. In this talk, we'll migrate an old piece of code using some standard and some very nonstandard tools and techniques.",
+      "speaker":{
+         "name":"Wim Godden ",
+         "description":"Wim Godden has been working with PHP since 1997 and has been involved in open source projects such as phpAdsNew/OpenX. Next to PHP, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training PHP engineers."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/18 11:00:00",
+      "ending_at":"2013/05/18 12:00:00"
    },
    {
-        "uid":"talk-202",
-        "title":"Building a unified back-end for your apps",
-        "description":"In this session, we will explore a way to build a single back-end for your iOS, Android, Windows Phone, Windows 8 and HTML/JS apps using Azure Mobile Services, a magic box service, that seamlessly and easily allow you to have a database, a way to use different identity providers like Facebook, Twitter, Google and Microsoft account. In addition, it supports different push notification services via server-side JavaScript APIs that you can leverage in your solution!",
-        "speaker":{
-            "name":"Pietro Brambati ",
-            "description":"Pietro Brambati is a passionate developer ninja. He likes working with different kind of languages and framework, working on different size applications, scaling from mobile device apps to large, enterprise- ready applications. He has been working with Microsoft where he has the opportunity to work with developer and academic community. You can reach him at the main developer events and hackathon all around Italy."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 11:00:00",
-        "ending_at":"2013/05/16 11:30:00"
+      "uid":"talk-141",
+      "title":"High Performance PHP",
+      "description":"This talk will cover tips and tricks for speeding up your PHP application - everything from micro optimizations at the code level to how many child processes you should be running on your webserver. You will also learn about profiling your code and load testing your application, so you can be confident that it will weather future traffic surges.",
+      "speaker":{
+         "name":"Jonathan Klein ",
+         "description":"Jonathan is a software engineer at Etsy, where he focuses on solving web performance and scalability challenges. Prior to working at Etsy he spent almost four years at Wayfair, where he led the team that converted the primary tech stack to PHP/Lighttpd/FreeBSD. He started and organizes the Boston Web Performance Meetup Group, and he contributes to a few open source projects, including the HTTPArchive and CSSLint. Jonathan blogs regularly at http://www.jonathanklein.net and can be found on Twitter at @jonathanklein. "
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/18 11:00:00",
+      "ending_at":"2013/05/18 12:00:00"
    },
    {
-        "uid":"talk-166",
-        "title":"Yo mama’s so ugly, she makes onions cry.",
-        "description":"Since we have WebCam access in our browsers, web facial recognition system becomes a fact. We can now use JavaScript to automatically identify or verify a person from a digital image or a video frame from a video source. Let’s check if it could be useful in HTML5 games!",
-        "speaker":{
-            "name":"Michal Budzynski ",
-            "description":"Michal is a Tabasco fan from Poland, addicted to TV series and working at Mozilla on FirefoxOS. He currently lives in Paris, where he eats snails, frog legs and croissants. He is also the organizer of onGameStart, the world's first large scale HTML5 gaming conference. He is also JsDay veteran, attending the conference since the very first edition."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 11:30:00",
-        "ending_at":"2013/05/16 12:00:00"
+      "uid":"talk-165",
+      "title":"Zend Framework 2 and Symfony2: The perfect team",
+      "description":"The next generation of frameworks is upon us, and now that they're more decoupled and component-based than ever before and use the same standard for naming and autoloading, there is no reason to stick to a single framework for your projects. During this session, we will go through several ways of combining Zend Framework 2 and Symfony2, so that you walk away being able to focus even more on on writing the complex custom logic your project needs, and don't have to worry about the rest.",
+      "speaker":{
+         "name":"Enrico Zimuel, Stefan Koopmanschap ",
+         "description":"Stefan Koopmanschap is a PHP fanatic. He runs his company Ingewikkeld, does development, consulting and training. Stefan is a community person and has been active with several usergroups in The Netherlands since the 90s, currently involved in the event team of the PFZ.nl usergroup."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/18 12:00:00",
+      "ending_at":"2013/05/18 13:00:00"
    },
    {
-        "uid":"talk-163",
-        "title":"Zombie code",
-        "description":"'Have you ever had the need to figure out how to survive a Javascript Zombiecodepocalipse? Have you ever dreamed about loads of living legacy code and the urge to run away from it? Hundreds of lines of code tightly coupled and hardly understandable there were trying to catch you? I've been there and I'm a survivor because I learned the art of refactoring. This talk is about how to deal with features request, deadlines and still increase the maintainability of your code.'",
-        "speaker":{
-            "name":"Marco Cedaro ",
-            "description":"Marco is a Javascript Pirate. Father of two, meteoropathic and with an insane passion for lo-fi music. Frontend developer since he was able to grow a beard, he worked for Yoox Group for 5 years and then, after 1 year with Spreaker.com, decided to move to London. Now he is employed at Shazam, where he's currently using the experience of his years spent designing and maintaining clientside architectures, APIs and continuous integration processes. He is proudly involved in the organization of From The Front conferences."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 11:30:00",
-        "ending_at":"2013/05/16 12:00:00"
+      "uid":"talk-184",
+      "title":"Writing infinite scalability web applications with PHP and PostgreSQL",
+      "description":"PostgreSQL 9.2 introduced native support for the JSON data type, as well as V8/Javascript and Coffeescript procedural languages. Learn how you can write web applications in PHP using an intelligent and horizontally sharded cluster of PostgreSQL databases, bringing you infinite scalability and parallel processing. This talk will guide you through the development lifecycle of the application, focusing on architecture, technologies, testing and deployment.",
+      "speaker":{
+         "name":"Gabriele Bartolini ",
+         "description":"A long time open-source programmer, Gabriele has been writing Linux/Unix applications in C and C++ for over 10 years, specialising in search engines and web analytics with large databases. Gabriele has a degree in Statistics from the University of Florence. His areas of expertise are data mining and data warehousing, having worked on web traffic analysis in Australia and Italy. Gabriele is a consultant with 2ndQuadrant and an active member of the international PostgreSQL community. Gabriele currently lives in Prato, a small but vibrant city located in the northern part of Tuscany, Italy. His second home is Melbourne, Australia, where he has studied at Monash University and worked in the ICT sector. His hobbies include 'calcio' (football or soccer, depending on which part of the world you come from) and playing his Fender Stratocaster electric guitar."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/18 12:00:00",
+      "ending_at":"2013/05/18 13:00:00"
    },
    {
-        "uid":"talk-176",
-        "title":"How to build single page applications in Javascript",
-        "description":"Learn how to build modern browser-based apps that take advantage of stronger client platforms. You'll discover the optimal design approach and the right techniques to develop and test SPA.",
-        "speaker":{
-            "name":"Giulio Cesare Solaroli ",
-            "description":"Clipperz.com co-founder"
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 12:00:00",
-        "ending_at":"2013/05/16 13:00:00"
+      "uid":"talk-145",
+      "title":"Automated acceptance testing with Behat and Mink",
+      "description":"The automation of functional tests is highly profitable, yet barely or not done at all on many projects. The powerful combination of Behat and Mink makes writing, and executing automated tests easier. In many cases faster, too. This session introduces you to Behat and Mink, and demonstrates how to write tests for different real-life use-cases, so you can put it to practice right away!",
+      "speaker":{
+         "name":"Richard Tuin ",
+         "description":"I’m a dutch web developer for fun and profit, and work as a software developer in a Scrum team at Enrise. Where i write web software for the enterprise business. I enjoy web development using PHP, quality assurance, software architecture and design, learning things, and sharing things i learn."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/18 14:30:00",
+      "ending_at":"2013/05/18 15:30:00"
    },
    {
-        "uid":"talk-167",
-        "title":"Cloud Messaging with Node.js and RabbitMQ",
-        "description":"In this talk I'd like to present CloudStagram an Instagram clone prototype that has been built with ''real time'' features from the get go. New uploaded images are broadcasted for processing using RabbitMQ from the node.js frontend to the Clojure backend. From there real time updates are pushed back to the node.js servers and then to the browser via sock.js. All this implemented in such a fashion that allows horizontal scalability of both the frontend app and the workers app with the requirement of deploying the app to a public Cloud. In this talk you will learn about the advantages of a message oriented architecture to be able to mash up together a polyglot system of apps and services.",
-        "speaker":{
-            "name":"Alvaro Videla ",
-            "description":"Alvaro Videla works at VMware as Developer Advocate for Cloud Foundry. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book ''RabbitMQ in Action'' for Manning Publishing. Some of his open source projects can be found here: http://github.com/videlalvaro. Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 12:00:00",
-        "ending_at":"2013/05/16 13:00:00"
+      "uid":"talk-143",
+      "title":"Building distributed systems",
+      "description":"Everyone starts with a simple one-machine setup, running PHP, MySQL and Apache. Sooner or later that's not enough and you are faced with some important architecture decisions. This talk goes through the principles and lessons when scaling from simple architectures to dynamically sized distributed ones, all without killing the business growth or paying millions for hosting. ",
+      "speaker":{
+         "name":"Juozas Kaziukėnas ",
+         "description":"Juozas, or as everyone calls him Joe, is an experienced and talented (some say) young professional, entrepreneur and evangelist. Focusing on bringing IT solutions to non-technical businesses, like retail, he works on optimizing their processes and using cutting-edge research to solve hard problems and grow sales. When not working, Joe finds time to contribute to open-source projects and movements to improve interoperability and platform independence. His hands-on practice with collection of different technologies, programming languages and environments allows him to deliver unbiased and practical presentations in all kind of different topics."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/18 14:30:00",
+      "ending_at":"2013/05/18 15:30:00"
    },
    {
-        "uid":"talk-175",
-        "title":"Practical Responsive Web Design",
-        "description":"Responsive web design is rapidly becoming the pattern of choice for building websites that work across all devices.  Unfortunately, this pattern comes with performance and maintainability concerns if not executed the right way.  This talk will explore precise strategies that you can use to make responsive sites that look great and perform well.  You will walk away knowing how to handle retina images, what breakpoints to use, how to treat older browsers, and other tactical tips that you need to know to be successful with RWD.",
-        "speaker":{
-            "name":"Jonathan Klein ",
-            "description":"Jonathan is a software engineer at Etsy, where he focuses on solving web performance and scalability challenges. Prior to working at Etsy he spent almost four years at Wayfair, where he led the team that converted the primary tech stack to PHP/Lighttpd/FreeBSD. He started and organizes the Boston Web Performance Meetup Group, and he contributes to a few open source projects, including the HTTPArchive and CSSLint. Jonathan blogs regularly at http://www.jonathanklein.net and can be found on Twitter at @jonathanklein."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 14:30:00",
-        "ending_at":"2013/05/16 15:00:00"
+      "uid":"talk-186",
+      "title":"LAMP scaling 101",
+      "description":"The basics of scaling a LAMP app beyond a single-server setup, and the issues that come from no longer having everything at arms' reach. This will touch on: - scaling static traffic (css/js/imgs) - scaling app traffic (php) - scaling databases (replication, clusters, sharding, ...) - scaling storage (s3, etc) and other topics like job queues, 'wenching' (grouping similar requests for data from unrelated pieces of code via promises), etc The talk is meant for anyone hitting the limits of their single server (VPS or similar) and facing the challenge of scaling up from that.",
+      "speaker":{
+         "name":"Luka Kladaric ",
+         "description":"I'm a 27 year old php developer from Croatia. I've been a professional web developer for close to 9 years now, and have worked at various properties, as well as freelanced. I've been working as a developer at deviantART for the past 2.5 years, the world's largest artist community, ranked as one of the top 100 world websites according to Quantcast and serving 40 million visitors a month. I'm also a member of the deviantART Hiring Team. I've delivered several talks at various Croatian user groups (in Croatian) and a talk in English about mobile web development at Webcamp Ljubljana (a video of which is available on vimeo)"
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/18 15:30:00",
+      "ending_at":"2013/05/18 16:30:00"
    },
    {
-        "uid":"talk-235",
-        "title":"You are not service-oriented enough",
-        "description":"The UNIX philosophy of doing one thing and doing it well applies to web apps as well. Ruby gems, NPM and all of their cousins are great for modularizing code. Yet most developers bundle dozens after dozens of modules together into monolithic projects when building their customer facing products. It is true for the servers and it is especially true for clients. But what if there was a way to truly stick to the UNIX philosophy? What if we could pipe products together on the highest level and not just on the module level? This talk will show you a way of doing this. It will be a roller-coaster ride through service-oriented architecture, showing you common problems as well as some cool ideas you can start using right away!",
-        "speaker":{
-            "name":"Jakob Mattsson ",
-            "description":"Jakob is an entrepreneur. His current company, which he co-founded as CTO, is his third startup. He is a developer at heart and started out building games using C++, but ended up building web based services and fell in love with JavaScript. Lately he has also become a huge fan of Node.js. When Jakob is involved, JavaScript is everywhere and great architecture is the top priority. Over the last years he has been sharing his thoughts and experiences on programming languages, working in startups and building better software at a large number of universities and conferences all over Europe."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 14:30:00",
-        "ending_at":"2013/05/16 15:00:00"
+      "uid":"talk-179",
+      "title":"Better mock objects with FBMock",
+      "description":"FBMock is a new open-source PHP mocking framework which eschews the traditional expectation verification pattern seen in other frameworks such as PHPUnit. This leads to simpler tests and makes it easier for beginners to learn In the last year, FBMock has helped fuel rapid adoption of unit testing within Facebook. In the last year, Facebook engineers have written almost 1,200 tests using FBMock dramatically increasing test reliability and performance.",
+      "speaker":{
+         "name":"Elliot Lynde ",
+         "description":"Elliot Lynde is one of Facebook's PHP testability experts. In addition to advising teams on writing testable code, he worked on Facebook's PHP dependency injection system and led the development of FBMock, an open-source mocking framework which has been crucial to Facebook's PHP testability work. When he's not tearing up some PHP code, you can find him doing running up and down the hills of San Francisco."
+      },
+      "location":"Track 1",
+      "starting_at":"2013/05/18 16:30:00",
+      "ending_at":"2013/05/18 17:00:00"
    },
    {
-        "uid":"talk-164",
-        "title":"An introduction to Knockout.js",
-        "description":"New generation browsers are virtual machines in which you can run real javascript applications. That means that the size of your javascript code is growing fast and its design must be maintainable during its lifetime using the same patterns that we apply to our server side code. Knockout.js is a javascript library that implement the MVVM pattern on the client side of your web applications using the well known pattern and a strong binding engine that keeps your data synchronized with the view. During the session we will see how to use knockout.js with our web applications, with examples, tips and consideration about its use.",
-        "speaker":{
-            "name":"Emanuele DelBono ",
-            "description":"I'm a web developer that writes application in C#, Ruby and Javascript."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 15:00:00",
-        "ending_at":"2013/05/16 16:00:00"
+      "uid":"talk-153",
+      "title":"The test suite is slow",
+      "description":"Medium to large projects have thousands of unit and integration tests, running at each build to catch regressions; if you leave these builds alone they can grow in size until it takes hours to declare a green build. In this session we will deploy all the strategies known to man for reaching a fast test suite, from profiling to caching to Fake collaborators, multiple stages and projects, and an hint of parallelism. The technical side is all based on PHP code: usually no external tools other than PHPUnit and Xdebug/Kcachegrind are necessary to halve your running times.",
+      "speaker":{
+         "name":"Giorgio Sironi ",
+         "description":"Developer at @Onebip. I search for the harmony between form and context."
+      },
+      "location":"Track 2",
+      "starting_at":"2013/05/18 16:30:00",
+      "ending_at":"2013/05/18 17:00:00"
    },
    {
-        "uid":"talk-178",
-        "title":"Taming asynchronous programming (beyond promises)",
-        "description":"Description: JS developers must deal with asynchronous programming everyday. This is a complex subject and one of the most common causes of spaghetti code and hard to maintain code bases, specially if they are large. In this talk I'll highlight the main problems of callback based programming, then we will explore some tools to solve this problems like AsyncJS and the promises approach. Finally we will discover that promises are not our last tool against asynchronous problems. Contents: Continuation Passing Style (callback hell), Some functional programming can help us, Asynchronous control flow (probably I'll use AsyncJS to illustrate some examples), Promises, Promises are not silver bullets, Event Streams (a.k.a. Reactive Programming)",
-        "speaker":{
-            "name":"Enrique Amodeo ",
-            "description":"I'm an independent consultant and coacher based at Madrid, a very eclectic professional with very different interests and more than 12 years of experience. Some of my areas of expertise are JS, REST, noSQL, compilers, object oriented programming and functional programming. As an agile practitioner, I use TDD/BDD and emergent design in my every day work and tries to travel light. With experience in both front end and server side development, I think of myself as a full stack engineer. Although I've worked with several technical stacks, including JAVA/JEE, in 2005 I fell in love with JS. Since then I focus on working with JS and HTML5. Nowadays I'm very happy to be able to apply my JS knowledge to the server side thanks to projects like NodeJS. Self published writer, I'm writing what seems to be the first book about REST APIs design in spanish at lean pub (https://leanpub.com/introduccion_apis_rest). In my free time run a (kind of controversial) blog in spanish about software engineering: http://eamodeorubio.wordpress.com/ Currently I'm collaborating with Agilar (http://www.agilar.org/) as a XP Coacher & Trainer, and recently I became the CTO of a startup called HipHunters (a fashion social network). An active member of the JS community, I'm cofounder and coorganizer of MadridJS local developers group (http://www.meetup.com/madridjs/) and the SpainJS international conference (http://spainjs.org/)."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 15:00:00",
-        "ending_at":"2013/05/16 16:00:00"
-   },
-   {
-        "uid":"talk-225",
-        "title":"Writing Efficient Javascript Code",
-        "description":"Modern web applications often include fairly complex Javascript code on the client side, and the performance of this code can become a critical factor limiting application features. From the perspective of an engineer in the V8 team I will explain the essential rules for getting better performance out of modern Javascript engines (obviously with a particular focus on V8).",
-        "speaker":{
-            "name":"Massimiliano Mantione ",
-            "description":"I am an enthusiast software engineer, mostly interested in programming languages and compiler optimizations. I curently work on the V8 Javascript virtual machine in the Chrome team in Google. In the past I have worked on the Mono JIT compiler (the free software CLR reimplementation) in Novell with Miguel de Icaza, and on game servers, virtual tradeshows rendered online in a browser window, embedded systems, GSM networks, J2EE and databases."
-        },
-        "location":"Track 1",
-        "starting_at":"2013/05/16 16:00:00",
-        "ending_at":"2013/05/16 17:00:00"
-   },
-   {
-        "uid":"talk-179",
-        "title":"A highly scalable cross-platform mobile app development strategy",
-        "description":"When it comes to deciding what technologies to use in creating a cross-platform mobile app, there’s plenty to choose from.  Each has their own benefits, but to be able to target all the major platforms with ease, such as iOS, Android, BlackBerry and Windows Phone requires a highly capable application framework.  This is where Sencha can help. Sencha has been building frameworks and tools built around HTML5 for several years.  In this session you will get a sense for how the Sencha Touch framework, with its MVC architecture, can be easily used for building powerful cross-platform apps, and how Sencha Architect can aid in the overall design and development process.",
-        "speaker":{
-            "name":"Daniel Gallo ",
-            "description":"Dan has over 8 years experience developing innovative web-based applications using a variety of technologies, and specialises in ASP.NET C# and JavaScript. He established the South-West England Sencha Meetup Group in 2011, to help bring the Sencha developer community together in the region. In early 2012, Dan joined Sencha as one of their Sales Engineers in Europe, where he provides pre-sales technical assistance regarding the Sencha product line."
-        },
-        "location":"Track 2",
-        "starting_at":"2013/05/16 16:00:00",
-        "ending_at":"2013/05/16 17:00:00"
-   },
-   {
-        "uid":"talk-156",
-        "title":"Excessive Enhancement - Are we taking proper care of the Web?",
-        "description":"We all love to see exciting and innovative 'interface shizzle' driven by JavaScript and the ever increasing rendering capabilities of modern browsers, but are we getting these at the expense of the Web? This talk will explore the good, the bad, and the fugly of rich interfaces, while examining how and why we should take care not to damage the Web.",
-        "speaker":{
-            "name":"Phil Hawksworth ",
-            "description":"Phil is a JavaScript developer who has been developing web applications since the late 90s. These days in his role as a Technical Director at R/GA in London, working for clients like Nike, O2, Beats By Dre and Getty Images, he focuses on technical architectures, wrangling developers and designers, and banging on about things like unobtrusive JavaScript, open web standards and tasty browser shenanigans. Some say that his Instagram feed contains more photos of cats than might be considered healthy for a grown man, but he's convinced that he doesn't have a problem."
-        },
-        "location":"Keynote",
-        "starting_at":"2013/05/16 09:45:00",
-        "ending_at":"2013/05/16 10:45:00"
+      "uid":"talk-201",
+      "title":"Grab yourself an alibi",
+      "description":"A software development team may face many problems, many problems each week, each day, hour by hour. Developers blame on managers. Managers blame on coders. Both blame on UX designers. UX designers blame on customers. Customers blame on account managers. Account managers on agile coaches. Agile coaches on DBAs. DBAs on human resources and all of them blame on final users. OK, enough of that: best players are those who don't wait for things to be perfect in order to succeed. Those who can cope with the absence of perfection are those who can truly make things better.",
+      "speaker":{
+         "name":"Jacopo Romei ",
+         "description":"Jacopo is an italian agile coach, developer, entrepreneur, writer. Among his broad interests, Jacopo\'s main one is IT products & software development process, though everything under the umbrella of science fits his tastes. After having started a couple of IT companies and practiced agile development, that experience load was the key to move on as a full time freelance agile coach, having coached during the last 3 years teams across Italy, Germany and UK. Product design, agile UX, features scoping and contract negotiation are added skills acquired after tight cooperation with business people in companies he was coach of. As a writer he has published a paper in experimental ecology, the Apress book \"Pro PHP Refactoring\" (2010) and \'PHP Best Practices\' (2012). He is also a speaker, regularly invited to international conferences and events about agile and lean software development and project management."
+      },
+      "location":"Keynote",
+      "starting_at":"2013/05/18 17:30:00",
+      "ending_at":"2013/05/18 18:15:00"
    }
 ];
