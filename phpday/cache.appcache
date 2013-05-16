@@ -1,0 +1,28 @@
+CACHE MANIFEST
+# 8ee1173506df77dfef826c6503c4f55bd972cfc2
+index.html
+# a2c5554f8f3ab57182b97a99ac53d4516b3169e8
+app.js
+# eece27df88efeef69e5d5dac52214f612b068fd4
+app.json
+# 1a5ca362496fb6c33fb33a579a8eeea9529065c3
+config.js
+# c144aad9865381013b9b9d15d60e818bb969dfe6
+schedule.js
+# dfaa8b9841398f97f271cf7061cdaa2829d928ba
+resources/fonts/rokkitt.woff
+# 73d4309e4a6f9ab96a6fd851e190f856e4a286e3
+resources/css/app.css
+# 5142ff70a662cbb41d8727b93ff666da5c4e03d8
+resources/images/logo.png
+# 5ec643742a42f8c562c1739937c0f8ca6de58c3e
+resources/images/addtohomescreen.jpg
+# ad2797f8ba58a263cdce091601ff3fb874af5966
+resources/images/map.png
+
+
+FALLBACK:
+
+
+NETWORK:
+*
