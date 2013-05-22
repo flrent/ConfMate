@@ -3,8 +3,13 @@
 // is already included in your app.json file).
 $base-gradient:"recessed";
 $toolbars-dark:"#F00";
-$base-color: #E8E8E8;
-$tabs-dark: #617cbe;
+
+$blue: #256f84;
+$yellow: #ffaf10;
+
+
+$base-color: $blue;
+$tabs-dark: $yellow;
 
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
