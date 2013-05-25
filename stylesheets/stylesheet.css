@@ -58,7 +58,9 @@ body {
   font-weight: 400;
   color: #666;
 }
-
+.alert.alert-info {
+  opacity:0.8;
+}
 a {
   color: #2879d0;
 }
